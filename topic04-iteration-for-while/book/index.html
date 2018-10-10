@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <style>
-      
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"
+        type="text/css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"
+        rel="stylesheet"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <style>
+    
 
 body {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
@@ -57,106 +66,100 @@ h3 {
 
 
 
-    </style>
-  </head>
+  </style>
+</head>
 
-  <body>
+<body>
+
+
+
+<div class="ui fixed top pointing inverted stackable menu labmenu">
+  <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     
+      <a href="../index.html"> 4: Iteration (Loops)  </a>
     
+  </header>
+  <div class="right tab-menu menu">
+    
+      <a class="item" data-tab="Lab-04">
+        Lab-04
+      </a>
+    
+      <a class="item" data-tab="01">
+        01
+      </a>
+    
+      <a class="item" data-tab="02">
+        02
+      </a>
+    
+      <a class="item" data-tab="03">
+        03
+      </a>
+    
+      <a class="item" data-tab="Exercises">
+        Exercises
+      </a>
+    
+      <a class="item" data-tab="Challenges">
+        Challenges
+      </a>
+    
+      <a class="item" data-tab="Solutions">
+        Solutions
+      </a>
+    
+  </div>
+</div>
 
-    <div class="ui fixed top pointing inverted stackable menu labmenu">
-      <header class="header item">
-        <i id="toc" class="sitemap icon"></i>
-        
-          <a href="../index.html"> 4: Iteration (Loops)  </a>
-        
-      </header>
-      <div class="right tab-menu menu">
-        
-          <a class="item" data-tab="Lab-04">
-            Lab-04
-          </a>
-        
-          <a class="item" data-tab="01">
-            01
-          </a>
-        
-          <a class="item" data-tab="02">
-            02
-          </a>
-        
-          <a class="item" data-tab="03">
-            03
-          </a>
-        
-          <a class="item" data-tab="Exercises">
-            Exercises
-          </a>
-        
-          <a class="item" data-tab="Challenges">
-            Challenges
-          </a>
-        
-          <a class="item" data-tab="Solutions">
-            Solutions
-          </a>
-        
-      </div>
-    </div>
-
-    <div class="ui segment pushable">
-      <div class="ui inverted labeled icon left inline vertical sidebar menu">
-        <br><br>
-        
-          
-            <a class="item" href="../../topic00-assignments/book-1/index.html">
-              Assignment-1
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic01-intro-to-processing/book-1/index.html">
-              Lab-01
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic02-animate-your-drawings/book-1/index.html">
-              Lab-02
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic03-if-stmt-and-events/book-1/index.html">
-              Lab-03
-            </a>
-          
-        
-          
-            <a class="active item" href="../../topic04-iteration-for-while/book/index.html">
-              Lab-04
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic05-methods/book/index.html">
-              Lab-05
-            </a>
-          
-        
-      </div>
-      <div class="pusher" tabindex="-1">
-        <div class="ui basic segment" id="labchat">
-          <br>
-          
-            <div  class="ui tab segment lab" data-tab="Lab-04">
-              <h1>Objectives</h1>
+<div class="ui pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    <br><br>
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-1/index.html">Assignment-1 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic01-intro-to-processing/book-1/index.html">Lab-01 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic02-animate-your-drawings/book-1/index.html">Lab-02 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic03-if-stmt-and-events/book-1/index.html">Lab-03 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic04-iteration-for-while/book/index.html">Lab-04 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic05-methods/book/index.html">Lab-05 </a>
+      
+    
+  </div>
+  <div class="pusher" tabindex="-1">
+    <div class="ui basic segment">
+      <br>
+      
+        <div class="ui tab segment lab" data-tab="Lab-04">
+          <h1>Objectives</h1>
 <p>variable scope · iteration · for loops · while loops · print · println</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="01">
-              <h1>Variable scope (local and global)</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="01">
+          <h1>Variable scope (local and global)</h1>
 <p>In this step, we will implement the code examples 4.1 - 4.4 from your lectures.</p>
 <h2>Understanding variable scope</h2>
 <p>Create a new Processing sketch and call it <strong>Example_4_4</strong>.  Note that we will be working through fixing the bugs we discussed in lectures and finish by saving just the completed, bug free version (i.e. 4.4).</p>
@@ -260,10 +263,10 @@ void draw() {
 <p>Now your code should run as expected.  </p>
 <p>Save and close your sketch.  </p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="02">
-              <h1>While Loops</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="02">
+          <h1>While Loops</h1>
 <p>In this step, we will implement the code examples 4.5 and 4.6 from your lectures.  We will also do an exercise with a nested while loop.</p>
 <h2>while Loop</h2>
 <p>Create a new Processing sketch and call it <strong>Example_4_5</strong>. </p>
@@ -318,10 +321,10 @@ while ( i &lt; 4 ) {
 <p>Look at these lines, in particular, look at the values printed for i and for j.  Do you understand the mechanics of how the nested while loop works?  </p>
 <p>Save your sketch.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="03">
-              <h1>For loops</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="03">
+          <h1>For loops</h1>
 <p>In this step, we will implement the for loop examples 4.7 &amp; 4.8 from your lectures.</p>
 <h2>Convert a while loop to a for loop</h2>
 <p>Create a new Processing sketch in your workspace and call it <strong>Example_4_7</strong>.</p>
@@ -362,10 +365,10 @@ while ( i &lt; 4 ) {
 <p>Run your code.  Does it work as you would expect?</p>
 <p><img src="./img/05.png" alt="Expected output"></p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="Exercises">
-              <h1>Exercises</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="Exercises">
+          <h1>Exercises</h1>
 <ul>
 <li><p>For each exercise listed below, create a new sketch.</p>
 </li>
@@ -395,10 +398,10 @@ while ( i &lt; 4 ) {
 <p>Create a new sketch and use a <strong>for</strong> loop and the println method to print all the even numbers between 2 and 10 to the console.  </p>
 <p>When you have it working using the for loop, refactor your code to use a <strong>while</strong> loop.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="Challenges">
-              <h1>Challenges</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="Challenges">
+          <h1>Challenges</h1>
 <ul>
 <li><p>For each exercise listed below, create a new sketch.</p>
 </li>
@@ -416,36 +419,42 @@ while ( i &lt; 4 ) {
 <p><img src="./img/03.png" alt="Chess Board with checkered pattern"></p>
 <p>Note:  You will need to read up on the modulo (%) operator in order to do this exercise.  This is quite a difficult exercise, so don&#39;t worry if you can&#39;t get it working.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="Solutions">
-              <h1>Solutions</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="Solutions">
+          <h1>Solutions</h1>
 <p>The solutions for this lab can be found <a href="archives/lab04_solutions.zip">here</a>. </p>
 <p>If you require unzipping software, 7zip is a good choice: <a href="http://www.7-zip.org/">http://www.7-zip.org/</a> (or Keka for Mac <a href="http://www.kekaosx.com/en/">http://www.kekaosx.com/en/</a>)</p>
 <p>After unzipping the solutions, it might be a good idea to copy the folders to your <strong>sketchbook</strong> folder.  From Processing, you could then use <strong>File</strong>, followed by <strong>Sketchbook</strong> to easily open them.</p>
 
-            </div>
-          
         </div>
-      </div>
+      
     </div>
+  </div>
+</div>
 
-    <script>
-      $(document).ready(function() {
-  const $images = $('.lab img');
-  jQuery.each($images, function(i) {
-    if ($images[i].alt.length > 0) {
-      const divImg = $(document.createElement('div')).addClass('');
-      $($images[i]).wrap(divImg);
-      const divLabel = $(document.createElement('div')).addClass('uk-label uk-text-lowercase');
-      divLabel.append($images[i].alt);
-      $(divLabel).insertAfter($images[i]);
-      $('<br>').insertAfter($images[i]);
-    }
-  });
+<script>
+  $(document).on('keydown', function(e) {
+  e = e || window.event;
+  var nextTab;
+  switch (e.which || e.keyCode) {
+    case 37: // left
+      nextTab = $('.tab-menu a[data-tab].active').prev('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').last();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+
+    case 39: // right
+      nextTab = $('.tab-menu a[data-tab].active').next('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').first();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+  }
 });
 
-      $(document).ready(function() {
+  $(document).ready(function() {
   $('img').addClass('ui image');
 
   $('.ui.embed').embed();
@@ -478,6 +487,6 @@ while ( i &lt; 4 ) {
     .sidebar('attach events', '#toc');
 });
 
-    </script>
-  </body>
+</script>
+</body>
 </html>

@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <style>
-      
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"
+        type="text/css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"
+        rel="stylesheet"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <style>
+    
 
 body {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
@@ -57,118 +66,112 @@ h3 {
 
 
 
-    </style>
-  </head>
+  </style>
+</head>
 
-  <body>
+<body>
+
+
+
+<div class="ui fixed top pointing inverted stackable menu labmenu">
+  <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     
+      <a href="../index.html">  2: Animating your Drawings  </a>
     
+  </header>
+  <div class="right tab-menu menu">
+    
+      <a class="item" data-tab="Lab-02">
+        Lab-02
+      </a>
+    
+      <a class="item" data-tab="PDE">
+        PDE
+      </a>
+    
+      <a class="item" data-tab="01">
+        01
+      </a>
+    
+      <a class="item" data-tab="02">
+        02
+      </a>
+    
+      <a class="item" data-tab="03">
+        03
+      </a>
+    
+      <a class="item" data-tab="04">
+        04
+      </a>
+    
+      <a class="item" data-tab="05">
+        05
+      </a>
+    
+      <a class="item" data-tab="Exercises">
+        Exercises
+      </a>
+    
+      <a class="item" data-tab="Challenges">
+        Challenges
+      </a>
+    
+      <a class="item" data-tab="Solutions">
+        Solutions
+      </a>
+    
+  </div>
+</div>
 
-    <div class="ui fixed top pointing inverted stackable menu labmenu">
-      <header class="header item">
-        <i id="toc" class="sitemap icon"></i>
-        
-          <a href="../index.html">  2: Animating your Drawings  </a>
-        
-      </header>
-      <div class="right tab-menu menu">
-        
-          <a class="item" data-tab="Lab-02">
-            Lab-02
-          </a>
-        
-          <a class="item" data-tab="PDE">
-            PDE
-          </a>
-        
-          <a class="item" data-tab="01">
-            01
-          </a>
-        
-          <a class="item" data-tab="02">
-            02
-          </a>
-        
-          <a class="item" data-tab="03">
-            03
-          </a>
-        
-          <a class="item" data-tab="04">
-            04
-          </a>
-        
-          <a class="item" data-tab="05">
-            05
-          </a>
-        
-          <a class="item" data-tab="Exercises">
-            Exercises
-          </a>
-        
-          <a class="item" data-tab="Challenges">
-            Challenges
-          </a>
-        
-          <a class="item" data-tab="Solutions">
-            Solutions
-          </a>
-        
-      </div>
-    </div>
-
-    <div class="ui segment pushable">
-      <div class="ui inverted labeled icon left inline vertical sidebar menu">
-        <br><br>
-        
-          
-            <a class="item" href="../../topic00-assignments/book-1/index.html">
-              Assignment-1
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic01-intro-to-processing/book-1/index.html">
-              Lab-01
-            </a>
-          
-        
-          
-            <a class="active item" href="../../topic02-animate-your-drawings/book-1/index.html">
-              Lab-02
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic03-if-stmt-and-events/book-1/index.html">
-              Lab-03
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic04-iteration-for-while/book/index.html">
-              Lab-04
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic05-methods/book/index.html">
-              Lab-05
-            </a>
-          
-        
-      </div>
-      <div class="pusher" tabindex="-1">
-        <div class="ui basic segment" id="labchat">
-          <br>
-          
-            <div  class="ui tab segment lab" data-tab="Lab-02">
-              <h1>Objectives</h1>
+<div class="ui pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    <br><br>
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-1/index.html">Assignment-1 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic01-intro-to-processing/book-1/index.html">Lab-01 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic02-animate-your-drawings/book-1/index.html">Lab-02 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic03-if-stmt-and-events/book-1/index.html">Lab-03 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic04-iteration-for-while/book/index.html">Lab-04 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic05-methods/book/index.html">Lab-05 </a>
+      
+    
+  </div>
+  <div class="pusher" tabindex="-1">
+    <div class="ui basic segment">
+      <br>
+      
+        <div class="ui tab segment lab" data-tab="Lab-02">
+          <h1>Objectives</h1>
 <p>animate simple drawings · variables · system variables · primitive data types · arithmetic operators</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="PDE">
-              <h1>Opening the PDE (Processing Development Environment)</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="PDE">
+          <h1>Opening the PDE (Processing Development Environment)</h1>
 <h1>If you are using the College Computers...</h1>
 <p>Open Windows Explorer by holding down the windows key and pressing the letter E once. </p>
 <p>When Windows Explorer opens, double click on:</p>
@@ -191,10 +194,10 @@ h3 {
 <p>The PDE (Processing Development Environment) should launch.</p>
 <p><img src="./img/02.png" alt="The Processing Development Environment"></p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="01">
-              <h1>Basic Animation</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="01">
+          <h1>Basic Animation</h1>
 <ul>
 <li>We will use the following built-in functions to animate our drawings:<ul>
 <li>setup()</li>
@@ -223,10 +226,10 @@ h3 {
 <p><img src="./img/04.png" alt="Animating Ellipses - Multiple Circles"></p>
 <p>Can you explain why there are multiple circles drawn?  Why not just one circle? </p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="02">
-              <h1>Animating Ellipses (continued)</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="02">
+          <h1>Animating Ellipses (continued)</h1>
 <p>We are now going to change the code (from the previous step) so that only one circle is shown when you move the mouse.</p>
 <p>Amend your code so that the background function is in the draw method instead of the setup method:</p>
 <p><img src="./img/05.png" alt="Animating Ellipses - One Circle"></p>
@@ -234,10 +237,10 @@ h3 {
 <p><img src="./img/06.png" alt="Animating Ellipses - One Circle"></p>
 <p>Can you explain why there is only one circle drawn as we move our mouse? </p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="03">
-              <h1>Playing with the System Variables</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="03">
+          <h1>Playing with the System Variables</h1>
 <p>What would happen to our animation if we swapped the <strong>mouseX</strong> and <strong>mouseY</strong> system variables in the <strong>ellipse</strong> function with each other?  </p>
 <p>Make this change (the code change is below, if you need it) and see if you can figure out what is going on.</p>
 <pre><code>    ellipse(mouseY, mouseX, 100, 100)</code></pre>
@@ -246,10 +249,10 @@ h3 {
 <p>Make this change and see if you can figure out what is going on.</p>
 <p>Save your work using the naming convention: <em>labXX_stepYY</em>, where <em>XX</em> is the number of the lab and <em>YY</em> is the number of the step.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="04">
-              <h1>Primitive Data Types</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="04">
+          <h1>Primitive Data Types</h1>
 <p>In Java, there are:</p>
 <ul>
 <li><p>four whole number data types:  byte, short, int, long.</p>
@@ -280,10 +283,10 @@ h3 {
 <p>Change 70.56 back to 70.</p>
 <p>Save and close the sketchbook.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="05">
-              <h1>Primitive Data Types</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="05">
+          <h1>Primitive Data Types</h1>
 <h2>Using the float data type</h2>
 <p>Create a new Sketchbook in your PDE and save it using the following naming convention:  <em>labXX_stepYY</em>, where <em>XX</em> is the number of the lab and <em>YY</em> is the number of the step.</p>
 <p>Enter the following code:</p>
@@ -306,10 +309,10 @@ rect(xCoordinate, yCoordinate, 80,80);</code></pre>
 <p>Change the code back.</p>
 <p>Save and close the sketchbook.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="Exercises">
-              <h1>Exercises</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="Exercises">
+          <h1>Exercises</h1>
 <p>The exercises are typically based on the material we covered in the previous steps in this lab and the associated lectures.</p>
 <p>For each exercise listed below, open a new sketch.</p>
 <h2>Exercise 1 (static drawing)</h2>
@@ -347,10 +350,10 @@ rect(xCoordinate, yCoordinate, 80,80);</code></pre>
 <p>When you run your code, the black circle should overlap the white circle when you drag your mouse from (0,0) diagnolally down to (100,100).  When you move your mouse horizontally, the black circle show grow/shrink in size.  It remains the same size when the mouse is dragged vertically.  Note that the white circle&#39;s behaviour hasn&#39;t changed.</p>
 <p><img src="./img/14.png" alt="Some sample output"></p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="Challenges">
-              <h1>Challenges</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="Challenges">
+          <h1>Challenges</h1>
 <p>For each exercise listed below, open a new sketchbook.</p>
 <p>You may need to visit the <a href="https://processing.org/reference/">Processing website</a> for additional information.</p>
 <h2>Challenge 1 (animated drawing with no cursor)</h2>
@@ -363,36 +366,42 @@ rect(xCoordinate, yCoordinate, 80,80);</code></pre>
 <p>Do some research into the Processing variables:  pmousex and pmousey.</p>
 <p>Write a Processing sketch that uses these variables. </p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="Solutions">
-              <h1>Solutions</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="Solutions">
+          <h1>Solutions</h1>
 <p>The solutions for this lab can be found <a href="archives/lab02_solutions.zip">here</a>. </p>
 <p>If you require unzipping software, 7zip is a good choice: <a href="http://www.7-zip.org/">http://www.7-zip.org/</a> (or Keka for Mac <a href="http://www.kekaosx.com/en/">http://www.kekaosx.com/en/</a>)</p>
 <p>After unzipping the solutions, it might be a good idea to copy the folders to your <strong>sketchbook</strong> folder.  From Processing, you could then use <strong>File</strong>, followed by <strong>Sketchbook</strong> to easily open them.</p>
 
-            </div>
-          
         </div>
-      </div>
+      
     </div>
+  </div>
+</div>
 
-    <script>
-      $(document).ready(function() {
-  const $images = $('.lab img');
-  jQuery.each($images, function(i) {
-    if ($images[i].alt.length > 0) {
-      const divImg = $(document.createElement('div')).addClass('');
-      $($images[i]).wrap(divImg);
-      const divLabel = $(document.createElement('div')).addClass('uk-label uk-text-lowercase');
-      divLabel.append($images[i].alt);
-      $(divLabel).insertAfter($images[i]);
-      $('<br>').insertAfter($images[i]);
-    }
-  });
+<script>
+  $(document).on('keydown', function(e) {
+  e = e || window.event;
+  var nextTab;
+  switch (e.which || e.keyCode) {
+    case 37: // left
+      nextTab = $('.tab-menu a[data-tab].active').prev('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').last();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+
+    case 39: // right
+      nextTab = $('.tab-menu a[data-tab].active').next('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').first();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+  }
 });
 
-      $(document).ready(function() {
+  $(document).ready(function() {
   $('img').addClass('ui image');
 
   $('.ui.embed').embed();
@@ -425,6 +434,6 @@ rect(xCoordinate, yCoordinate, 80,80);</code></pre>
     .sidebar('attach events', '#toc');
 });
 
-    </script>
-  </body>
+</script>
+</body>
 </html>
