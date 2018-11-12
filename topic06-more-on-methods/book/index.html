@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"
-        type="text/css">
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"
-        rel="stylesheet"/>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <style>
-    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+      
 
 body {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
@@ -66,119 +57,134 @@ h3 {
 
 
 
-  </style>
-</head>
+    </style>
+  </head>
 
-<body>
+  <body>
+    
+    
 
+    <div class="ui fixed top pointing inverted stackable menu labmenu">
+      <header class="header item">
+        <i id="toc" class="sitemap icon"></i>
+        
+          <a href="../index.html"> 6: Methods (Part 2)  </a>
+        
+      </header>
+      <div class="right tab-menu menu">
+        
+          <a class="item" data-tab="Lab-06">
+            Lab-06
+          </a>
+        
+          <a class="item" data-tab="01">
+            01
+          </a>
+        
+          <a class="item" data-tab="02">
+            02
+          </a>
+        
+          <a class="item" data-tab="03">
+            03
+          </a>
+        
+          <a class="item" data-tab="04">
+            04
+          </a>
+        
+          <a class="item" data-tab="Exercises">
+            Exercises
+          </a>
+        
+          <a class="item" data-tab="Challenges">
+            Challenges
+          </a>
+        
+          <a class="item" data-tab="Solutions">
+            Solutions
+          </a>
+        
+      </div>
+    </div>
 
-
-<div class="ui fixed top pointing inverted stackable menu labmenu">
-  <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
-    
-      <a href="../index.html"> 6: Methods (Part 2)  </a>
-    
-  </header>
-  <div class="right tab-menu menu">
-    
-      <a class="item" data-tab="Lab-06">
-        Lab-06
-      </a>
-    
-      <a class="item" data-tab="01">
-        01
-      </a>
-    
-      <a class="item" data-tab="02">
-        02
-      </a>
-    
-      <a class="item" data-tab="03">
-        03
-      </a>
-    
-      <a class="item" data-tab="04">
-        04
-      </a>
-    
-      <a class="item" data-tab="Exercises">
-        Exercises
-      </a>
-    
-      <a class="item" data-tab="Challenges">
-        Challenges
-      </a>
-    
-      <a class="item" data-tab="Solutions">
-        Solutions
-      </a>
-    
-  </div>
-</div>
-
-<div class="ui pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    <br><br>
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-1/index.html">Assignment-1 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic01-intro-to-processing/book-1/index.html">Lab-01 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic02-animate-your-drawings/book-1/index.html">Lab-02 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic03-if-stmt-and-events/book-1/index.html">Lab-03 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic04-iteration-for-while/book/index.html">Lab-04 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic05-methods/book/index.html">Lab-05 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic06-more-on-methods/book/index.html">Lab-06 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic07-strings-and-intro-to-classes/book/index.html">Lab-07 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic08-classes-encapsulation/book/index.html">Lab-08 </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment">
-      <br>
-      
-        <div class="ui tab segment lab" data-tab="Lab-06">
-          <h1>Objectives</h1>
+    <div class="ui segment pushable">
+      <div class="ui inverted labeled icon left inline vertical sidebar menu">
+        <br><br>
+        
+          
+            <a class="item" href="../../topic00-assignments/book-1/index.html">
+              Assignment-1
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic01-intro-to-processing/book-1/index.html">
+              Lab-01
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic02-animate-your-drawings/book-1/index.html">
+              Lab-02
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic03-if-stmt-and-events/book-1/index.html">
+              Lab-03
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic04-iteration-for-while/book/index.html">
+              Lab-04
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic05-methods/book/index.html">
+              Lab-05
+            </a>
+          
+        
+          
+            <a class="active item" href="../../topic06-more-on-methods/book/index.html">
+              Lab-06
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic07-strings-and-intro-to-classes/book/index.html">
+              Lab-07
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic08-classes-encapsulation/book/index.html">
+              Lab-08
+            </a>
+          
+        
+          
+            <a class="item" href="../../topic09-swing-and-arrays/book/index.html">
+              Lab-09
+            </a>
+          
+        
+      </div>
+      <div class="pusher" tabindex="-1">
+        <div class="ui basic segment" id="labchat">
+          <br>
+          
+            <div  class="ui tab segment lab" data-tab="Lab-06">
+              <h1>Objectives</h1>
 <p>more sophisticated methods · return types · parameters · Strings · String methods · JOptionPane</p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="01">
-          <h1>Abstracting code to a method</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="01">
+              <h1>Abstracting code to a method</h1>
 <p>In this step, you will draw many eyes (the examples 6.1 - 6.3 from your lectures).</p>
 <h2>Coding the setup() method</h2>
 <p>Create a new Processing sketch in your workspace and call it <strong>Example_6_1</strong>.</p>
@@ -213,10 +219,10 @@ h3 {
 <p><img src="./img/01.png" alt="Six eyes"></p>
 <p>Save your work.</p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="02">
-          <h1>Overloading methods</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="02">
+              <h1>Overloading methods</h1>
 <p>In this step, you will draw many X&#39;s (the processing examples 6.4 - 6.9 from your lectures).</p>
 <h2>Coding the setup() method</h2>
 <p>Create a new Processing sketch in your workspace and call it <strong>Example_6_4</strong>.</p>
@@ -289,10 +295,10 @@ h3 {
 <h2>Versioning Software</h2>
 <p>For our drawX project, you will notice that we now have 5 sketches, <strong>Example_6_4</strong> to <strong>Example_6_9</strong>.  This means that we have 5 different versions of the drawX project.  As we incrementally worked on our drawX project and got a new method working, we saved off that work and starting working in a new file.  This is a standard approach in programming and we will focus more on this approach throughout the course.  </p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="03">
-          <h1>Farenheit / Celsius Converter</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="03">
+              <h1>Farenheit / Celsius Converter</h1>
 <p>In this step, you will work on reproducing the code example 6.10 from your lectures.</p>
 <h2>Writing the coversion method</h2>
 <p>Create a new Processing sketch in your workspace and call it <strong>Example_6_10</strong>.</p>
@@ -304,10 +310,10 @@ h3 {
 <p>The value retuned from the calculation should be printed to the console.</p>
 <p>Test your code by passing the farenheit value of 451.  The celsius value printed should be:  232.77779  </p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="04">
-          <h1>Recursion</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="04">
+              <h1>Recursion</h1>
 <p>In this step, you will work on reproducing the code example 6.11 from your lectures.</p>
 <h2>Solution with no recursion</h2>
 <p>Create a new Processing sketch in your workspace and call it <strong>Example_6_11</strong>.</p>
@@ -335,10 +341,10 @@ void drawLines(int x, int num)
 <p>Rewrite the <strong>drawLines</strong> method so that it uses recursion to produce the same output as above.</p>
 <p>Save your work.</p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="Exercises">
-          <h1>Exercise</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Exercises">
+              <h1>Exercise</h1>
 <h2>Exercise 1 (String methods)</h2>
 <p>Create a new sketch called <strong>lab06_exercise01</strong>.</p>
 <p>In this exercise, you will call many different methods over a given String.</p>
@@ -347,10 +353,10 @@ void drawLines(int x, int num)
 <p><img src="./img/08.png" alt="String details"></p>
 <p>Save your work.</p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="Challenges">
-          <h1>Challenges</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Challenges">
+              <h1>Challenges</h1>
 <p>For each challenge listed below, open a new sketch.</p>
 <p>In these challenges, we are going to use something you haven&#39;t seen before..Message Dialogs.  </p>
 <p><img src="./img/09.png" alt="Message Dialog"></p>
@@ -391,42 +397,36 @@ void setup()
 <p><img src="./img/11.png" alt="Formatted Message Dialog"></p>
 <p>Save your work.</p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="Solutions">
-          <h1>Solutions</h1>
+            </div>
+          
+            <div  class="ui tab segment lab" data-tab="Solutions">
+              <h1>Solutions</h1>
 <p>The solutions for this lab can be found <a href="archives/lab06_solutions.zip">here</a>. </p>
 <p>If you require unzipping software, 7zip is a good choice: <a href="http://www.7-zip.org/">http://www.7-zip.org/</a> (or Keka for Mac <a href="http://www.kekaosx.com/en/">http://www.kekaosx.com/en/</a>)</p>
 <p>After unzipping the solutions, it might be a good idea to copy the folders to your <strong>sketchbook</strong> folder.  From Processing, you could then use <strong>File</strong>, followed by <strong>Sketchbook</strong> to easily open them.</p>
 
+            </div>
+          
         </div>
-      
+      </div>
     </div>
-  </div>
-</div>
 
-<script>
-  $(document).on('keydown', function(e) {
-  e = e || window.event;
-  var nextTab;
-  switch (e.which || e.keyCode) {
-    case 37: // left
-      nextTab = $('.tab-menu a[data-tab].active').prev('a[data-tab]');
-      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').last();
-      nextTab.click();
-      $('.pusher').focus();
-      break;
-
-    case 39: // right
-      nextTab = $('.tab-menu a[data-tab].active').next('a[data-tab]');
-      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').first();
-      nextTab.click();
-      $('.pusher').focus();
-      break;
-  }
+    <script>
+      $(document).ready(function() {
+  const $images = $('.lab img');
+  jQuery.each($images, function(i) {
+    if ($images[i].alt.length > 0) {
+      const divImg = $(document.createElement('div')).addClass('');
+      $($images[i]).wrap(divImg);
+      const divLabel = $(document.createElement('div')).addClass('uk-label uk-text-lowercase');
+      divLabel.append($images[i].alt);
+      $(divLabel).insertAfter($images[i]);
+      $('<br>').insertAfter($images[i]);
+    }
+  });
 });
 
-  $(document).ready(function() {
+      $(document).ready(function() {
   $('img').addClass('ui image');
 
   $('.ui.embed').embed();
@@ -459,6 +459,6 @@ void setup()
     .sidebar('attach events', '#toc');
 });
 
-</script>
-</body>
+    </script>
+  </body>
 </html>
