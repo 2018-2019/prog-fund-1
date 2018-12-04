@@ -47,7 +47,7 @@ void setup()
    
    //create a player object with the data entered by the user 
    maxNumberOfGames = Integer.parseInt(JOptionPane.showInputDialog("Welcome to the Pong Tournament\n\n Please enter the number of games you would like to play: ","3"));
-   player = new Player(JOptionPane.showInputDialog("Enter the player name (max 6 chars: "), maxNumberOfGames);
+   player = new Player(JOptionPane.showInputDialog("Enter the player name (max 6 chars): "), maxNumberOfGames);
 }
 
 void draw()
