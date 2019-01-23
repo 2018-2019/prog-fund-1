@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <style>
-      
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"
+        type="text/css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"
+        rel="stylesheet"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <style>
+    
 
 body {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
@@ -57,158 +66,147 @@ h3 {
 
 
 
-    </style>
-  </head>
+  </style>
+</head>
 
-  <body>
+<body>
+
+
+
+<div class="ui fixed top pointing inverted stackable menu labmenu">
+  <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     
+      <a href="../index.html">  11: Game of Pong  </a>
     
+  </header>
+  <div class="right tab-menu menu">
+    
+      <a class="item" data-tab="Lab-11a">
+        Lab-11a
+      </a>
+    
+      <a class="item" data-tab="Pong">
+        Pong
+      </a>
+    
+      <a class="item" data-tab="Architecture">
+        Architecture
+      </a>
+    
+      <a class="item" data-tab="V1">
+        V1
+      </a>
+    
+      <a class="item" data-tab="V2">
+        V2
+      </a>
+    
+  </div>
+</div>
 
-    <div class="ui fixed top pointing inverted stackable menu labmenu">
-      <header class="header item">
-        <i id="toc" class="sitemap icon"></i>
-        
-          <a href="../index.html">  11: Game of Pong  </a>
-        
-      </header>
-      <div class="right tab-menu menu">
-        
-          <a class="item" data-tab="Lab-11a">
-            Lab-11a
-          </a>
-        
-          <a class="item" data-tab="Pong">
-            Pong
-          </a>
-        
-          <a class="item" data-tab="Architecture">
-            Architecture
-          </a>
-        
-          <a class="item" data-tab="V1">
-            V1
-          </a>
-        
-          <a class="item" data-tab="V2">
-            V2
-          </a>
-        
-      </div>
-    </div>
-
-    <div class="ui segment pushable">
-      <div class="ui inverted labeled icon left inline vertical sidebar menu">
-        <br><br>
-        
-          
-            <a class="item" href="../../topic00-assignments/book-1/index.html">
-              Assignment-1
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic00-assignments/book-2/index.html">
-              Assignment-2
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic01-intro-to-processing/book-1/index.html">
-              Lab-01
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic02-animate-your-drawings/book-1/index.html">
-              Lab-02
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic03-if-stmt-and-events/book-1/index.html">
-              Lab-03
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic04-iteration-for-while/book/index.html">
-              Lab-04
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic05-methods/book/index.html">
-              Lab-05
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic06-more-on-methods/book/index.html">
-              Lab-06
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic07-strings-and-intro-to-classes/book/index.html">
-              Lab-07
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic08-classes-encapsulation/book/index.html">
-              Lab-08
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic09-swing-and-arrays/book/index.html">
-              Lab-09
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic10-arrays-and-classes/book/index.html">
-              Lab-10
-            </a>
-          
-        
-          
-            <a class="active item" href="../../topic11-pong/book-v1-v2/index.html">
-              Lab-11a
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v3-v4-v5/index.html">
-              Lab-11b
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v6-v7-v8/index.html">
-              Lab-11c
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v9/index.html">
-              Lab-11d
-            </a>
-          
-        
-      </div>
-      <div class="pusher" tabindex="-1">
-        <div class="ui basic segment" id="labchat">
-          <br>
-          
-            <div  class="ui tab segment lab" data-tab="Lab-11a">
-              <h1>Objectives</h1>
+<div class="ui pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    <br><br>
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-1/index.html">Assignment-1 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-2/index.html">Assignment-2 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-3/index.html">RepeatAssignment </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic01-intro-to-processing/book-1/index.html">Lab-01 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic02-animate-your-drawings/book-1/index.html">Lab-02 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic03-if-stmt-and-events/book-1/index.html">Lab-03 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic04-iteration-for-while/book/index.html">Lab-04 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic05-methods/book/index.html">Lab-05 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic06-more-on-methods/book/index.html">Lab-06 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic07-strings-and-intro-to-classes/book/index.html">Lab-07 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic08-classes-encapsulation/book/index.html">Lab-08 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic09-swing-and-arrays/book/index.html">Lab-09 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic10-arrays-and-classes/book/index.html">Lab-10 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v1-v2/index.html">Lab-11a </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v3-v4-v5/index.html">Lab-11b </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v6-v7-v8/index.html">Lab-11c </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v9/index.html">Lab-11d </a>
+      
+    
+  </div>
+  <div class="pusher" tabindex="-1">
+    <div class="ui basic segment">
+      <br>
+      
+        <div class="ui tab segment lab" data-tab="Lab-11a">
+          <h1>Objectives</h1>
 <p>Game of Pong Architecture · Solutions for all versions · PongGame V1.0 · PongGameV2.0</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="Pong">
-              <h1>The Game of Pong</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="Pong">
+          <h1>The Game of Pong</h1>
 <p>In this section, we wil introduce the Game of Pong that we will build over the next few labs.</p>
 <h2>Tournament</h2>
 <p>In our version of Pong, the player enters into a tournament of games. </p>
@@ -257,10 +255,10 @@ h3 {
 </ul>
 <p><img src="./img/06.png" alt="Tournament Over"></p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="Architecture">
-              <h1>Architecture of Pong</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="Architecture">
+          <h1>Architecture of Pong</h1>
 <p>In the final version (V8.0) of Pong, there are four classes:</p>
 <ul>
 <li><p><strong>PongGame</strong> - has the setup() and draw() methods.  It starts the game, handles player input, manages collision detection between the Ball and the Paddle, ends the game and outputs the player statistics.</p>
@@ -300,10 +298,10 @@ h3 {
 </ul>
 <p>The solutions for each of these versions can be downloaded from <a href="archives/game-of-pong-v1-to-v9.zip">here</a>. </p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="V1">
-              <h1>PongGameV1.0</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="V1">
+          <h1>PongGameV1.0</h1>
 <p>Having read the lecture on PongGameV1.0 we will now develop it. </p>
 <p>Make sure that you read and understand the code below, while typing it into the Ball class.  If you have any questions on any part of the code, make sure to ask your lecturer.</p>
 <p><img src="./img/08.png" alt="PongGame V1.0"></p>
@@ -433,10 +431,10 @@ void draw(){
 <h2>Solution</h2>
 <p>If your code is not working, the solution can be found <a href="archives/PongGameV1_0.zip">here</a>.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="V2">
-              <h1>PongGameV2.0</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="V2">
+          <h1>PongGameV2.0</h1>
 <p>Having read the lecture on PongGameV2.0 we will now develop it. </p>
 <p>Make sure that you read and understand the code below, while typing it into the Paddle class.  If you have any questions on any part of the code, make sure to ask your lecturer.</p>
 <p><img src="./img/09.png" alt="PongGame V2.0"></p>
@@ -567,28 +565,34 @@ void draw(){
 <h2>Solution</h2>
 <p>If your code is not working, the solution can be found <a href="archives/PongGameV2_0.zip">here</a>. </p>
 
-            </div>
-          
         </div>
-      </div>
+      
     </div>
+  </div>
+</div>
 
-    <script>
-      $(document).ready(function() {
-  const $images = $('.lab img');
-  jQuery.each($images, function(i) {
-    if ($images[i].alt.length > 0) {
-      const divImg = $(document.createElement('div')).addClass('');
-      $($images[i]).wrap(divImg);
-      const divLabel = $(document.createElement('div')).addClass('uk-label uk-text-lowercase');
-      divLabel.append($images[i].alt);
-      $(divLabel).insertAfter($images[i]);
-      $('<br>').insertAfter($images[i]);
-    }
-  });
+<script>
+  $(document).on('keydown', function(e) {
+  e = e || window.event;
+  var nextTab;
+  switch (e.which || e.keyCode) {
+    case 37: // left
+      nextTab = $('.tab-menu a[data-tab].active').prev('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').last();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+
+    case 39: // right
+      nextTab = $('.tab-menu a[data-tab].active').next('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').first();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+  }
 });
 
-      $(document).ready(function() {
+  $(document).ready(function() {
   $('img').addClass('ui image');
 
   $('.ui.embed').embed();
@@ -621,6 +625,6 @@ void draw(){
     .sidebar('attach events', '#toc');
 });
 
-    </script>
-  </body>
+</script>
+</body>
 </html>

@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <style>
-      
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"
+        type="text/css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"
+        rel="stylesheet"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <style>
+    
 
 body {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
@@ -57,154 +66,143 @@ h3 {
 
 
 
-    </style>
-  </head>
+  </style>
+</head>
 
-  <body>
+<body>
+
+
+
+<div class="ui fixed top pointing inverted stackable menu labmenu">
+  <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     
+      <a href="../index.html">  11: Game of Pong  </a>
     
+  </header>
+  <div class="right tab-menu menu">
+    
+      <a class="item" data-tab="Lab-11c">
+        Lab-11c
+      </a>
+    
+      <a class="item" data-tab="V6">
+        V6
+      </a>
+    
+      <a class="item" data-tab="V7">
+        V7
+      </a>
+    
+      <a class="item" data-tab="V8">
+        V8
+      </a>
+    
+  </div>
+</div>
 
-    <div class="ui fixed top pointing inverted stackable menu labmenu">
-      <header class="header item">
-        <i id="toc" class="sitemap icon"></i>
-        
-          <a href="../index.html">  11: Game of Pong  </a>
-        
-      </header>
-      <div class="right tab-menu menu">
-        
-          <a class="item" data-tab="Lab-11c">
-            Lab-11c
-          </a>
-        
-          <a class="item" data-tab="V6">
-            V6
-          </a>
-        
-          <a class="item" data-tab="V7">
-            V7
-          </a>
-        
-          <a class="item" data-tab="V8">
-            V8
-          </a>
-        
-      </div>
-    </div>
-
-    <div class="ui segment pushable">
-      <div class="ui inverted labeled icon left inline vertical sidebar menu">
-        <br><br>
-        
-          
-            <a class="item" href="../../topic00-assignments/book-1/index.html">
-              Assignment-1
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic00-assignments/book-2/index.html">
-              Assignment-2
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic01-intro-to-processing/book-1/index.html">
-              Lab-01
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic02-animate-your-drawings/book-1/index.html">
-              Lab-02
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic03-if-stmt-and-events/book-1/index.html">
-              Lab-03
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic04-iteration-for-while/book/index.html">
-              Lab-04
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic05-methods/book/index.html">
-              Lab-05
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic06-more-on-methods/book/index.html">
-              Lab-06
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic07-strings-and-intro-to-classes/book/index.html">
-              Lab-07
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic08-classes-encapsulation/book/index.html">
-              Lab-08
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic09-swing-and-arrays/book/index.html">
-              Lab-09
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic10-arrays-and-classes/book/index.html">
-              Lab-10
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v1-v2/index.html">
-              Lab-11a
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v3-v4-v5/index.html">
-              Lab-11b
-            </a>
-          
-        
-          
-            <a class="active item" href="../../topic11-pong/book-v6-v7-v8/index.html">
-              Lab-11c
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v9/index.html">
-              Lab-11d
-            </a>
-          
-        
-      </div>
-      <div class="pusher" tabindex="-1">
-        <div class="ui basic segment" id="labchat">
-          <br>
-          
-            <div  class="ui tab segment lab" data-tab="Lab-11c">
-              <h1>Objectives</h1>
+<div class="ui pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    <br><br>
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-1/index.html">Assignment-1 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-2/index.html">Assignment-2 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-3/index.html">RepeatAssignment </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic01-intro-to-processing/book-1/index.html">Lab-01 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic02-animate-your-drawings/book-1/index.html">Lab-02 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic03-if-stmt-and-events/book-1/index.html">Lab-03 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic04-iteration-for-while/book/index.html">Lab-04 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic05-methods/book/index.html">Lab-05 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic06-more-on-methods/book/index.html">Lab-06 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic07-strings-and-intro-to-classes/book/index.html">Lab-07 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic08-classes-encapsulation/book/index.html">Lab-08 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic09-swing-and-arrays/book/index.html">Lab-09 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic10-arrays-and-classes/book/index.html">Lab-10 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v1-v2/index.html">Lab-11a </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v3-v4-v5/index.html">Lab-11b </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v6-v7-v8/index.html">Lab-11c </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v9/index.html">Lab-11d </a>
+      
+    
+  </div>
+  <div class="pusher" tabindex="-1">
+    <div class="ui basic segment">
+      <br>
+      
+        <div class="ui tab segment lab" data-tab="Lab-11c">
+          <h1>Objectives</h1>
 <p>PongGame V6.0 · PongGame V7.0 · PongGameV8.0</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="V6">
-              <h1>Game of Pong - V6.0</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="V6">
+          <h1>Game of Pong - V6.0</h1>
 <p>On completion of this lab you will have introduced an array of Players and build simple data analysis algorithms based on the stored data.  In this lab, you will work on PongGameV6.0, PongGame7.0 and PongGameV8.0.</p>
 <p>In Version 6 of the game, we introduce a new Player class. For this version, the Player class will have limited functionality. </p>
 <p>Open your latest version of PongGame version 5. If you want, you can use this solution <a href="archives/PongGameV5_0.zip">here</a>. </p>
@@ -338,10 +336,10 @@ void tournamentOver()
 <h2>Solution</h2>
 <p>If your code is not working, the solution can be found <a href="archives/PongGameV6_0.zip">here</a>. </p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="V7">
-              <h1>Game of Pong - V7.0</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="V7">
+          <h1>Game of Pong - V7.0</h1>
 <p>In this version of the game, we add methods that calculate the highest and lowest score in the player&#39;s score array as well as calculating the average score over all the scores.</p>
 <p>Open your latest version of PongGame Version 7. If you are not confident that it is working, you can use this solution <a href="archives/PongGameV7_0.zip">here</a>. </p>
 <p>Save this as PongGameV8_0. Now, make changes to this work. </p>
@@ -424,10 +422,10 @@ void tournamentOver()
 <h2>Solution</h2>
 <p>If your code is not working, the solution can be found <a href="archives/PongGameV7_0.zip">here</a>.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="V8">
-              <h1>Game of Pong - V8.0</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="V8">
+          <h1>Game of Pong - V8.0</h1>
 <p>In this version of the game, we add the JOptionPane methods that allow us to read data in from the keyboard and to send data out via dialog boxes. </p>
 <p>Because we can now use user input, we use this in two places:</p>
 <ul>
@@ -524,28 +522,34 @@ void tournamentOver()
 <h2>Solution</h2>
 <p>If your code is not working, the solution can be found <a href="archives/PongGameV8_0.zip">here</a>. </p>
 
-            </div>
-          
         </div>
-      </div>
+      
     </div>
+  </div>
+</div>
 
-    <script>
-      $(document).ready(function() {
-  const $images = $('.lab img');
-  jQuery.each($images, function(i) {
-    if ($images[i].alt.length > 0) {
-      const divImg = $(document.createElement('div')).addClass('');
-      $($images[i]).wrap(divImg);
-      const divLabel = $(document.createElement('div')).addClass('uk-label uk-text-lowercase');
-      divLabel.append($images[i].alt);
-      $(divLabel).insertAfter($images[i]);
-      $('<br>').insertAfter($images[i]);
-    }
-  });
+<script>
+  $(document).on('keydown', function(e) {
+  e = e || window.event;
+  var nextTab;
+  switch (e.which || e.keyCode) {
+    case 37: // left
+      nextTab = $('.tab-menu a[data-tab].active').prev('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').last();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+
+    case 39: // right
+      nextTab = $('.tab-menu a[data-tab].active').next('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').first();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+  }
 });
 
-      $(document).ready(function() {
+  $(document).ready(function() {
   $('img').addClass('ui image');
 
   $('.ui.embed').embed();
@@ -578,6 +582,6 @@ void tournamentOver()
     .sidebar('attach events', '#toc');
 });
 
-    </script>
-  </body>
+</script>
+</body>
 </html>

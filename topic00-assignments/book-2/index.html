@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
-    <style>
-      
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"
+        type="text/css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"
+        rel="stylesheet"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <style>
+    
 
 body {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
@@ -57,158 +66,147 @@ h3 {
 
 
 
-    </style>
-  </head>
+  </style>
+</head>
 
-  <body>
+<body>
+
+
+
+<div class="ui fixed top pointing inverted stackable menu labmenu">
+  <header class="header item">
+    <i id="toc" class="sitemap icon"></i>
     
+      <a href="../index.html">  Assignments  </a>
     
+  </header>
+  <div class="right tab-menu menu">
+    
+      <a class="item" data-tab="Assignment-2">
+        Assignment-2
+      </a>
+    
+      <a class="item" data-tab="01">
+        01
+      </a>
+    
+      <a class="item" data-tab="02">
+        02
+      </a>
+    
+      <a class="item" data-tab="03">
+        03
+      </a>
+    
+      <a class="item" data-tab="04">
+        04
+      </a>
+    
+  </div>
+</div>
 
-    <div class="ui fixed top pointing inverted stackable menu labmenu">
-      <header class="header item">
-        <i id="toc" class="sitemap icon"></i>
-        
-          <a href="../index.html">  Assignments  </a>
-        
-      </header>
-      <div class="right tab-menu menu">
-        
-          <a class="item" data-tab="Assignment-2">
-            Assignment-2
-          </a>
-        
-          <a class="item" data-tab="01">
-            01
-          </a>
-        
-          <a class="item" data-tab="02">
-            02
-          </a>
-        
-          <a class="item" data-tab="03">
-            03
-          </a>
-        
-          <a class="item" data-tab="04">
-            04
-          </a>
-        
-      </div>
-    </div>
-
-    <div class="ui segment pushable">
-      <div class="ui inverted labeled icon left inline vertical sidebar menu">
-        <br><br>
-        
-          
-            <a class="item" href="../../topic00-assignments/book-1/index.html">
-              Assignment-1
-            </a>
-          
-        
-          
-            <a class="active item" href="../../topic00-assignments/book-2/index.html">
-              Assignment-2
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic01-intro-to-processing/book-1/index.html">
-              Lab-01
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic02-animate-your-drawings/book-1/index.html">
-              Lab-02
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic03-if-stmt-and-events/book-1/index.html">
-              Lab-03
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic04-iteration-for-while/book/index.html">
-              Lab-04
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic05-methods/book/index.html">
-              Lab-05
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic06-more-on-methods/book/index.html">
-              Lab-06
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic07-strings-and-intro-to-classes/book/index.html">
-              Lab-07
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic08-classes-encapsulation/book/index.html">
-              Lab-08
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic09-swing-and-arrays/book/index.html">
-              Lab-09
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic10-arrays-and-classes/book/index.html">
-              Lab-10
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v1-v2/index.html">
-              Lab-11a
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v3-v4-v5/index.html">
-              Lab-11b
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v6-v7-v8/index.html">
-              Lab-11c
-            </a>
-          
-        
-          
-            <a class="item" href="../../topic11-pong/book-v9/index.html">
-              Lab-11d
-            </a>
-          
-        
-      </div>
-      <div class="pusher" tabindex="-1">
-        <div class="ui basic segment" id="labchat">
-          <br>
-          
-            <div  class="ui tab segment lab" data-tab="Assignment-2">
-              <h1>Assignment 2 (70%)</h1>
+<div class="ui pushable">
+  <div class="ui inverted labeled icon left inline vertical sidebar menu">
+    <br><br>
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-1/index.html">Assignment-1 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-2/index.html">Assignment-2 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-3/index.html">RepeatAssignment </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic01-intro-to-processing/book-1/index.html">Lab-01 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic02-animate-your-drawings/book-1/index.html">Lab-02 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic03-if-stmt-and-events/book-1/index.html">Lab-03 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic04-iteration-for-while/book/index.html">Lab-04 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic05-methods/book/index.html">Lab-05 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic06-more-on-methods/book/index.html">Lab-06 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic07-strings-and-intro-to-classes/book/index.html">Lab-07 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic08-classes-encapsulation/book/index.html">Lab-08 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic09-swing-and-arrays/book/index.html">Lab-09 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic10-arrays-and-classes/book/index.html">Lab-10 </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v1-v2/index.html">Lab-11a </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v3-v4-v5/index.html">Lab-11b </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v6-v7-v8/index.html">Lab-11c </a>
+      
+    
+      
+        <a class="item"
+           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v9/index.html">Lab-11d </a>
+      
+    
+  </div>
+  <div class="pusher" tabindex="-1">
+    <div class="ui basic segment">
+      <br>
+      
+        <div class="ui tab segment lab" data-tab="Assignment-2">
+          <h1>Assignment 2 (70%)</h1>
 <p>This is your second assignment that will contribute to your grade for the semester.  You are asked to write a working animation. You will be asked to interview on your code during study week.</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="01">
-              <h1>Specification</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="01">
+          <h1>Specification</h1>
 <p>This is the specification of your second summative assignment i.e. the grade for this assignment will go towards your final module mark. This specification will describe:</p>
 <ul>
 <li>What is expected from your code.</li>
@@ -229,10 +227,10 @@ h3 {
 </li>
 </ul>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="02">
-              <h1>Specification</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="02">
+          <h1>Specification</h1>
 <p>In this assignment, you are asked to write code to produce a working animation of your choice in Processing (Java).</p>
 <p>The aim of the assignment is for you to demonstrate your understanding of structures seen so far, so you are asked to include the following:</p>
 <ul>
@@ -251,10 +249,10 @@ h3 {
 <p>Refer to the Pong game covered in lectures and labs for inspiration. </p>
 <p>The complexity of the entire code is important, i.e. the more complex the code, the more marks you will achieve. (see marking scheme)</p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="03">
-              <h1>Marking Scheme</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="03">
+          <h1>Marking Scheme</h1>
 <p>There are three components to your overall mark:</p>
 <ul>
 <li>Structure of code</li>
@@ -304,10 +302,10 @@ h3 {
 <h1>Note</h1>
 <p>Specifically, the multiplier effect means that if you do not present for your interview you will receive 0 for the interview and 0% overall. This means you must be avaiable for interview when requested. </p>
 
-            </div>
-          
-            <div  class="ui tab segment lab" data-tab="04">
-              <h1>Handup of submission</h1>
+        </div>
+      
+        <div class="ui tab segment lab" data-tab="04">
+          <h1>Handup of submission</h1>
 <h2>Date</h2>
 <p>The submission is due on Sunday evening, 9th December at 5 pm SHARP.  No late submissions will be accepted (unless mitigating circumstances, with supporting documentation, apply).
 Interviews on the assignments will be scheduled for (the following day) - Monday of Week 13. Attendance is compulsory. </p>
@@ -334,28 +332,34 @@ Any sources referred to during the development of the assignment (no need to ref
 
 */</code></pre>
 
-            </div>
-          
         </div>
-      </div>
+      
     </div>
+  </div>
+</div>
 
-    <script>
-      $(document).ready(function() {
-  const $images = $('.lab img');
-  jQuery.each($images, function(i) {
-    if ($images[i].alt.length > 0) {
-      const divImg = $(document.createElement('div')).addClass('');
-      $($images[i]).wrap(divImg);
-      const divLabel = $(document.createElement('div')).addClass('uk-label uk-text-lowercase');
-      divLabel.append($images[i].alt);
-      $(divLabel).insertAfter($images[i]);
-      $('<br>').insertAfter($images[i]);
-    }
-  });
+<script>
+  $(document).on('keydown', function(e) {
+  e = e || window.event;
+  var nextTab;
+  switch (e.which || e.keyCode) {
+    case 37: // left
+      nextTab = $('.tab-menu a[data-tab].active').prev('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').last();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+
+    case 39: // right
+      nextTab = $('.tab-menu a[data-tab].active').next('a[data-tab]');
+      if (!nextTab.length) nextTab = $('.tab-menu a[data-tab]').first();
+      nextTab.click();
+      $('.pusher').focus();
+      break;
+  }
 });
 
-      $(document).ready(function() {
+  $(document).ready(function() {
   $('img').addClass('ui image');
 
   $('.ui.embed').embed();
@@ -388,6 +392,6 @@ Any sources referred to during the development of the assignment (no need to ref
     .sidebar('attach events', '#toc');
 });
 
-    </script>
-  </body>
+</script>
+</body>
 </html>
