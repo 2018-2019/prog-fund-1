@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"
-        type="text/css">
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-light.min.css"
-        rel="stylesheet"/>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
-  <script type="text/javascript"
-          src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <style>
-    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.css"
+          type="text/css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css"
+          rel="stylesheet"/>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.10/semantic.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/java.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <style>
+      
 
 body {
   font-family: "Open Sans", "Helvetica", "Helvetica Neue",  "Arial", sans-serif;
@@ -66,175 +66,226 @@ h3 {
 
 
 
-  </style>
-</head>
+      
 
-<body>
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background: white;
+  text-align: right;
+}
+.content {
+  flex: 1;
+  overflow: auto;
+}
 
 
 
-<div class="ui fixed top pointing inverted stackable menu labmenu">
-  <header class="header item">
-    <i id="toc" class="sitemap icon"></i>
-    
-      <a href="../index.html">  1: Introduction to Processing  </a>
-    
-  </header>
-  <div class="right tab-menu menu">
-    
-      <a class="item" data-tab="Lab-01">
-        Lab-01
-      </a>
-    
-      <a class="item" data-tab="Advice">
-        Advice
-      </a>
-    
-      <a class="item" data-tab="01">
-        01
-      </a>
-    
-      <a class="item" data-tab="02">
-        02
-      </a>
-    
-      <a class="item" data-tab="03">
-        03
-      </a>
-    
-      <a class="item" data-tab="04">
-        04
-      </a>
-    
-      <a class="item" data-tab="05">
-        05
-      </a>
-    
-      <a class="item" data-tab="06">
-        06
-      </a>
-    
-      <a class="item" data-tab="07">
-        07
-      </a>
-    
-      <a class="item" data-tab="Exercises">
-        Exercises
-      </a>
-    
-      <a class="item" data-tab="Challenges">
-        Challenges
-      </a>
-    
-      <a class="item" data-tab="Solutions">
-        Solutions
-      </a>
-    
+    </style>
+  </head>
+
+  
+  
+
+  <div class="ui fixed top pointing inverted stackable menu labmenu">
+    <header class="header item">
+      <i id="toc" class="sitemap icon"></i>
+      
+        <a href="../index.html">  1: Introduction to Processing  </a>
+      
+    </header>
+    <div class="right tab-menu menu">
+      
+        <a class="item" data-tab="Lab-01">
+          Lab-01
+        </a>
+      
+        <a class="item" data-tab="Advice">
+          Advice
+        </a>
+      
+        <a class="item" data-tab="01">
+          01
+        </a>
+      
+        <a class="item" data-tab="02">
+          02
+        </a>
+      
+        <a class="item" data-tab="03">
+          03
+        </a>
+      
+        <a class="item" data-tab="04">
+          04
+        </a>
+      
+        <a class="item" data-tab="05">
+          05
+        </a>
+      
+        <a class="item" data-tab="06">
+          06
+        </a>
+      
+        <a class="item" data-tab="07">
+          07
+        </a>
+      
+        <a class="item" data-tab="Exercises">
+          Exercises
+        </a>
+      
+        <a class="item" data-tab="Challenges">
+          Challenges
+        </a>
+      
+        <a class="item" data-tab="Solutions">
+          Solutions
+        </a>
+      
+    </div>
   </div>
-</div>
 
-<div class="ui pushable">
-  <div class="ui inverted labeled icon left inline vertical sidebar menu">
-    <br><br>
-    
+
+  
+
+  <div class="ui pushable">
+    <div class="ui inverted labeled icon left inline vertical sidebar menu">
+      <br><br>
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-1/index.html">Assignment-1 </a>
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-1/index.html">Assignment-1 </a>
+          
+        
       
-    
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-2/index.html">Assignment-2 </a>
+          
+        
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-2/index.html">Assignment-2 </a>
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic01-intro-to-processing/book-1/index.html">Lab-01 </a>
+          
+        
       
-    
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic02-animate-your-drawings/book-1/index.html">Lab-02 </a>
+          
+        
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-3/index.html">RepeatAssignment </a>
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic03-if-stmt-and-events/book-1/index.html">Lab-03 </a>
+          
+        
       
-    
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic04-iteration-for-while/book/index.html">Lab-04 </a>
+          
+        
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic01-intro-to-processing/book-1/index.html">Lab-01 </a>
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic05-methods/book/index.html">Lab-05 </a>
+          
+        
       
-    
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic06-more-on-methods/book/index.html">Lab-06 </a>
+          
+        
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic02-animate-your-drawings/book-1/index.html">Lab-02 </a>
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic07-strings-and-intro-to-classes/book/index.html">Lab-07 </a>
+          
+        
       
-    
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic08-classes-encapsulation/book/index.html">Lab-08 </a>
+          
+        
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic03-if-stmt-and-events/book-1/index.html">Lab-03 </a>
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic09-swing-and-arrays/book/index.html">Lab-09 </a>
+          
+        
       
-    
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic10-arrays-and-classes/book/index.html">Lab-10 </a>
+          
+        
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic04-iteration-for-while/book/index.html">Lab-04 </a>
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v1-v2/index.html">Lab-11a </a>
+          
+        
       
-    
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v3-v4-v5/index.html">Lab-11b </a>
+          
+        
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic05-methods/book/index.html">Lab-05 </a>
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v6-v7-v8/index.html">Lab-11c </a>
+          
+        
       
-    
+        
+          
+            <a class="item"
+               href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v9/index.html">Lab-11d </a>
+          
+        
       
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic06-more-on-methods/book/index.html">Lab-06 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic07-strings-and-intro-to-classes/book/index.html">Lab-07 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic08-classes-encapsulation/book/index.html">Lab-08 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic09-swing-and-arrays/book/index.html">Lab-09 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic10-arrays-and-classes/book/index.html">Lab-10 </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v1-v2/index.html">Lab-11a </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v3-v4-v5/index.html">Lab-11b </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v6-v7-v8/index.html">Lab-11c </a>
-      
-    
-      
-        <a class="item"
-           href="http://2018-2019.github.io/prog-fund-1//topic11-pong/book-v9/index.html">Lab-11d </a>
-      
-    
-  </div>
-  <div class="pusher" tabindex="-1">
-    <div class="ui basic segment">
-      <br>
-      
-        <div class="ui tab segment lab" data-tab="Lab-01">
-          <h1>Objectives</h1>
+    </div>
+    <div class="pusher" tabindex="-1">
+      <div class="ui basic segment">
+        <br>
+        
+          <div class="ui tab segment lab" data-tab="Lab-01">
+            <h1>Objectives</h1>
 <p>Processing PDE · drawing basic shapes · colour · grayscale · RGB</p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="Advice">
-          <h1>Lab advice</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="Advice">
+            <h1>Lab advice</h1>
 <ul>
 <li><p>Your labs are not a race to be the first student finished.</p>
 </li>
@@ -253,10 +304,10 @@ h3 {
 </li>
 </ul>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="01">
-          <h1>Installing the PDE (Processing Development Environment)</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="01">
+            <h1>Installing the PDE (Processing Development Environment)</h1>
 <ul>
 <li>If you are using your own laptop and would like to install the PDE on it, please follow the instructions in this step.</li>
 <li>If you are using the WIT computers, you can ignore this step and move onto the next step.</li>
@@ -280,10 +331,10 @@ h3 {
 </ul>
 <p><img src="./img/03.png" alt="The Processing application"></p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="02">
-          <h1>Opening the PDE (Processing Development Environment)</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="02">
+            <h1>Opening the PDE (Processing Development Environment)</h1>
 <h1>If you are using the College Computers...</h1>
 <p>Open Windows Explorer by holding down the windows key and pressing the letter E once. </p>
 <p>When Windows Explorer opens, double click on:</p>
@@ -306,10 +357,10 @@ h3 {
 <p>The PDE (Processing Development Environment) should launch.</p>
 <p><img src="./img/05.png" alt="The Processing Development Environment"></p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="03">
-          <h1>Setting your Sketchbook location</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="03">
+            <h1>Setting your Sketchbook location</h1>
 <ul>
 <li>As you work through the exercises in this lab, you will create many new files.  These files are called Sketchbooks.</li>
 <li>It is important that you pick a convenient location on your computer to save these sketchbook files to.  The following steps show you how to do this.</li>
@@ -338,10 +389,10 @@ h3 {
 </ul>
 <p><img src="./img/08.png" alt="Example of a Sketchbook containing previous work"></p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="04">
-          <h1>Drawing Simple Shapes</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="04">
+            <h1>Drawing Simple Shapes</h1>
 <ul>
 <li>We will use the following built-in functions to draw simple shapes:<ul>
 <li>rect()</li>
@@ -412,10 +463,10 @@ h3 {
 </ul>
 <p><img src="./img/15.png" alt="Drawing a line"></p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="05">
-          <h1>Drawing Simple Shapes(contd.)</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="05">
+            <h1>Drawing Simple Shapes(contd.)</h1>
 <h2>Drawing Ellipses</h2>
 <ul>
 <li><p>For our purposes here, we will define an <strong>ellipse</strong> as a basic oval shape. </p>
@@ -451,10 +502,10 @@ h3 {
 </ul>
 <p><img src="./img/18.png" alt="Drawing a circle"></p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="06">
-          <h1>Changing the look of the display window</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="06">
+            <h1>Changing the look of the display window</h1>
 <ul>
 <li>You should have the following code in your open sketchbook:</li>
 </ul>
@@ -519,10 +570,10 @@ h3 {
 </ul>
 <p>where XX is the lab, step exercise, or challenge number.</p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="07">
-          <h1>Changing the look of the shapes</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="07">
+            <h1>Changing the look of the shapes</h1>
 <p>In this step, we will look at colouring in the shapes we have just drawn and also changing their outline.</p>
 <h2>fill() function</h2>
 <p>The fill() function fills shapes with a chosen colour.  We will use the RGB colours to select a colour.  All shapes that are drawn after the <strong>fill</strong> function is called, will be filled with the chosen colour.  </p>
@@ -587,10 +638,10 @@ ellipse(85,50,20,60);
 stroke(0,0,0);
 ellipse(50,80,15,15);</code></pre>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="Exercises">
-          <h1>Exercises</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="Exercises">
+            <h1>Exercises</h1>
 <ul>
 <li><p>These exercises are based on the functions we covered in the previous steps in this lab.</p>
 </li>
@@ -619,10 +670,10 @@ ellipse(50,80,15,15);</code></pre>
     fill(0);     //sets a black colour for all shapes drawn after it
     fill(255);   //sets a white colour for all shapes drawn after it</code></pre>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="Challenges">
-          <h1>Challenges</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="Challenges">
+            <h1>Challenges</h1>
 <ul>
 <li><p>For each challenge listed below, create a new sketch.</p>
 </li>
@@ -641,22 +692,24 @@ ellipse(50,80,15,15);</code></pre>
 <h2>Challenge 3</h2>
 <p>Design your own picture, making sure to use combinations of Circles, Ovals, Squares, Rectanges and Lines.  </p>
 
-        </div>
-      
-        <div class="ui tab segment lab" data-tab="Solutions">
-          <h1>Solutions</h1>
+          </div>
+        
+          <div class="ui tab segment lab" data-tab="Solutions">
+            <h1>Solutions</h1>
 <p>The solutions for this lab can be found <a href="archives/lab01_solutions.zip">here</a>. </p>
 <p>If you require unzipping software, 7zip is a good choice: <a href="http://www.7-zip.org/">http://www.7-zip.org/</a> (or Keka for Mac <a href="http://www.kekaosx.com/en/">http://www.kekaosx.com/en/</a>)</p>
 <p>After unzipping the solutions, it might be a good idea to copy the three folders to your <strong>sketchbook</strong> folder.  From Processing, you could then use <strong>File</strong>, followed by <strong>Sketchbook</strong> to easily open them.</p>
 
-        </div>
-      
+          </div>
+        
+      </div>
     </div>
   </div>
-</div>
 
-<script>
-  $(document).on('keydown', function(e) {
+
+  <br>
+  <script>
+    $(document).on('keydown', function(e) {
   e = e || window.event;
   var nextTab;
   switch (e.which || e.keyCode) {
@@ -676,7 +729,7 @@ ellipse(50,80,15,15);</code></pre>
   }
 });
 
-  $(document).ready(function() {
+    $(document).ready(function() {
   $('img').addClass('ui image');
 
   $('.ui.embed').embed();
@@ -709,6 +762,18 @@ ellipse(50,80,15,15);</code></pre>
     .sidebar('attach events', '#toc');
 });
 
-</script>
-</body>
+  </script>
+
+
+
+  <div class="ui bottom fixed borderless right menu">
+    <div class="ui right small menu">
+      <div class="ui tiny basic message segment">
+         Powered by <a href="https://github.com/edeleastar/tutors-ts">tutors-ts.</a> 
+      </div>
+    </div>
+  </div>
+
+  </body>
+
 </html>

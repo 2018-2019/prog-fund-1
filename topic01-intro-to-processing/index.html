@@ -8,9 +8,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.23/js/uikit-icons.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+      
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background: white;
+  text-align: right;
+}
+.content {
+  flex: 1;
+  overflow: auto;
+}
+
+
+
+    </style>
   </head>
   <body class="uk-background-muted">
-    
+    <div class="wrapper">
+      <div class="content">
+        <div style="height:1000px;">
+          
   
   <div class="uk-offcanvas-content">
     <div id="offcanvas-usage" uk-offcanvas>
@@ -53,23 +81,6 @@ Assignment-1
                                  href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-2/index.html">
   <i class="fas fa-flask " style="color:#00BCD4"> </i>
 Assignment-2
-                                
-                              </a>
-                            
-                          
-                        
-                      </li>
-                    
-                  
-                    
-                      <li>
-                        
-                          
-                            
-                              <a class="item"
-                                 href="http://2018-2019.github.io/prog-fund-1//topic00-assignments/book-3/index.html">
-  <i class="fas fa-flask " style="color:#00BCD4"> </i>
-RepeatAssignment
                                 
                               </a>
                             
@@ -940,11 +951,24 @@ Lab-11d
 
     
   <div class="uk-width-1-2@m  uk-card uk-card-default uk-padding-small">
-    <h2>  1: Introduction to Processing  </h2>
-    <div class="uk-text-muted uk-text-small">
-      
-        Dr. Siobhan Drohan and Ms. Mairead Meagher, WIT.
-      
+    <div uk-grid>
+      <div class="uk-width-1-5@m">
+        
+          
+  
+    <i class=" fa-4x" style="color:"></i>
+  
+
+        
+      </div>
+      <div class="uk-width-expand@m uk-text-left">
+        <h2>  1: Introduction to Processing  </h2>
+        <div class="uk-text-muted uk-text-small">
+          
+            Dr. Siobhan Drohan and Ms. Mairead Meagher, WIT.
+          
+        </div>
+      </div>
     </div>
   </div>
 
@@ -1013,10 +1037,16 @@ Lab-11d
   
 
     
+    
+  
+
   </div>
 
   
   <div class="uk-container uk-padding-small">
+    
+  
+
     
   
 
@@ -1030,6 +1060,10 @@ Lab-11d
         <div>
           
             
+
+  
+  
+
   <div class="uk-card uk-card-default 
   
     uk-card-hover
@@ -1076,8 +1110,7 @@ Lab-11d
     
   
     <div class="uk-card-footer">
-      <p> <p>Processing · introduction to coding · drawing basic shapes</p>
-</p>
+      <p> <p>Processing · introduction to coding · drawing basic shapes</p></p>
     </div>
   
 
@@ -1086,12 +1119,18 @@ Lab-11d
 
   </div>
 
+
+
           
         </div>
       
         <div>
           
             
+
+  
+  
+
   <div class="uk-card uk-card-default 
   
     uk-card-hover
@@ -1138,8 +1177,7 @@ Lab-11d
     
   
     <div class="uk-card-footer">
-      <p> <p>static drawings · colour · grayscale · RGB · fill · stroke · logic errors · syntax errors · commenting code</p>
-</p>
+      <p> <p>static drawings · colour · grayscale · RGB · fill · stroke · logic errors · syntax errors · commenting code</p></p>
     </div>
   
 
@@ -1148,12 +1186,18 @@ Lab-11d
 
   </div>
 
+
+
           
         </div>
       
         <div>
           
             
+
+  
+  
+
   <div class="uk-card uk-card-default 
   
     uk-card-hover
@@ -1201,8 +1245,7 @@ Lab-11d
     
   
     <div class="uk-card-footer">
-      <p> <p>Processing PDE · drawing basic shapes · colour · grayscale · RGB</p>
-</p>
+      <p> <p>Processing PDE · drawing basic shapes · colour · grayscale · RGB</p></p>
     </div>
   
 
@@ -1210,6 +1253,8 @@ Lab-11d
   
 
   </div>
+
+
 
           
         </div>
@@ -1221,5 +1266,12 @@ Lab-11d
   </div>
 
 
+        </div>
+      </div>
+      <div class="footer uk-text-small uk-text-right uk-text-muted"> Powered by <a
+          href="https://github.com/edeleastar/tutors-ts">tutors-ts.</a>
+        
+      </div>
+    </div>
   </body>
 </html>

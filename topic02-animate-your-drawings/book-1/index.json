@@ -1,0 +1,83 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-02",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>animate simple drawings · variables · system variables · primitive data types · arithmetic operators</p>",
+  "folder" : "book-1",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "Lab-02",
+    "contentMd" : "#Objectives\r\n\r\nanimate simple drawings · variables · system variables · primitive data types · arithmetic operators"
+    },
+  
+    {
+    "title": "Opening the PDE (Processing Development Environment)",
+    "shortTitle": "PDE",
+    "contentMd" : "#Opening the PDE (Processing Development Environment)\r\n\r\n#If you are using the College Computers...\r\n\r\nOpen Windows Explorer by holding down the windows key and pressing the letter E once. \r\n\r\nWhen Windows Explorer opens, double click on:\r\n\r\n- the **C:** \r\n\r\n- then the **dev** folder\r\n\r\n- then the **processing** folder\r\n\r\n- then the **processing-x.x.x** folder\r\n\r\n\r\n#If you are using your own computer...\r\n\r\nGo to the directory/folder where you installed your processing app.  \r\n\r\n\r\n#Opening the PDE\r\n\r\nNow that you have nagivated to where Processing is installed, you should see a list of files and folders similiar to the picture below:\r\n\r\n![Processing Development Environment files](./img/01.png)\r\n\r\nDouble click in the **processing** application (highlighted by the red rectangle).\r\n\r\nThe PDE (Processing Development Environment) should launch.\r\n\r\n![The Processing Development Environment](./img/02.png)\r\n\r\n"
+    },
+  
+    {
+    "title": "Basic Animation",
+    "shortTitle": "01",
+    "contentMd" : "#Basic Animation\r\n\r\n- We will use the following built-in functions to animate our drawings:\r\n    - setup()\r\n    - draw()\r\n    \r\n##A note on the setup() function\r\n\r\n- setup() is called once when the program starts and should not be called again.\r\n- setup() can set the screen size and background colour. \r\n- There can only be one setup() function for each sketch.\r\n\r\n##A note on the draw() function\r\n\r\n- You should never call the draw() function.\r\n- Processing automatically calls the draw() function straight after the setup() call.\r\n- draw() continuously executes the code contained inside it.\r\n- There can only be one draw() function for each sketch.\r\n\r\n\r\n##Animating Ellipses\r\n\r\nIn your PDE, enter the following code:\r\n\r\n![Animating Ellipses](./img/03.png)\r\n\r\nUsing the **File**, **Save as...** menu options, save this sketchbook with the following naming convention:  *labXX_stepYY*, where *XX* is the number of the lab and *YY* is the number of the step.\r\n\r\nRun the code.  As you move your mouse around the canvas, you should have animation similar to the screen shot below.\r\n\r\n![Animating Ellipses - Multiple Circles](./img/04.png)\r\n\r\nCan you explain why there are multiple circles drawn?  Why not just one circle? \r\n\r\n"
+    },
+  
+    {
+    "title": "Animating Ellipses (continued)",
+    "shortTitle": "02",
+    "contentMd" : "#Animating Ellipses (continued)\r\n\r\nWe are now going to change the code (from the previous step) so that only one circle is shown when you move the mouse.\r\n\r\nAmend your code so that the background function is in the draw method instead of the setup method:\r\n\r\n![Animating Ellipses - One Circle](./img/05.png)\r\n\r\nRun the code.  As you move the mouse over the canvas, you should have animation similar to the screen shot below.\r\n\r\n![Animating Ellipses - One Circle](./img/06.png)\r\n\r\nCan you explain why there is only one circle drawn as we move our mouse? \r\n\r\n"
+    },
+  
+    {
+    "title": "Playing with the System Variables",
+    "shortTitle": "03",
+    "contentMd" : "#Playing with the System Variables\r\n\r\nWhat would happen to our animation if we swapped the **mouseX** and **mouseY** system variables in the **ellipse** function with each other?  \r\n\r\nMake this change (the code change is below, if you need it) and see if you can figure out what is going on.\r\n\r\n~~~   \r\n    ellipse(mouseY, mouseX, 100, 100)\r\n~~~\r\n\r\nNow, what would happen to our animation if we changed our ellipse function to be this:\r\n\r\n~~~   \r\n    ellipse(width, mouseY, 100, 100)\r\n~~~\r\n\r\nMake this change and see if you can figure out what is going on.\r\n\r\nSave your work using the naming convention: *labXX_stepYY*, where *XX* is the number of the lab and *YY* is the number of the step.\r\n\r\n"
+    },
+  
+    {
+    "title": "Primitive Data Types",
+    "shortTitle": "04",
+    "contentMd" : "#Primitive Data Types\r\n\r\nIn Java, there are:\r\n\r\n- four whole number data types:  byte, short, int, long.\r\n\r\n- two decimal number data types: float (default in Processing) and double (default in Java apps).\r\n\r\n- a single character data type: char.\r\n\r\n- a true/false data type: boolean.\r\n\r\n\r\n\r\n##Using the int data type\r\n\r\nCreate a new Sketchbook in your PDE and save it using the following naming convention:  *labXX_stepYY*, where *XX* is the number of the lab and *YY* is the number of the step.\r\n\r\nEnter the following code:\r\n\r\n![Using int data type to set the coordinates of three lines](./img/07.png)\r\n\r\nRun the code.  Your window should now have three blue lines similar to the screen shot below:\r\n\r\n![Three blue lines](./img/08.png)\r\n\r\nUpdate the code using a,b,c and d variables to generate new lines:\r\n\r\n![Using int data type to set the coordinates of more lines](./img/09.png)\r\n\r\nRun the code.  Your window should now have three new blue lines similar to the screen shot below:\r\n\r\n![Six blue lines](./img/10.png)\r\n\r\n\r\n##A syntax error\r\n\r\nUpdate the code by changing **int** to **Int** (uppercase I).  Run your code again.  What happened? Can you explain what happened?  Ask your lecturer to explain it if you are not sure. \r\n\r\nChange **Int** back to **int**.\r\n\r\n\r\n##Another syntax error\r\n\r\nUpdate the code by changing the amount assigned to variable **a** from 70 to 70.56.  \r\n\r\nRun your code again.  What happened? Can you explain what happened?  Ask your lecturer to explain it if you are not sure. \r\n\r\nChange 70.56 back to 70.\r\n\r\nSave and close the sketchbook.\r\n\r\n"
+    },
+  
+    {
+    "title": "Primitive Data Types",
+    "shortTitle": "05",
+    "contentMd" : "#Primitive Data Types\r\n\r\n\r\n##Using the float data type\r\n\r\nCreate a new Sketchbook in your PDE and save it using the following naming convention:  *labXX_stepYY*, where *XX* is the number of the lab and *YY* is the number of the step.\r\n\r\nEnter the following code:\r\n\r\n![Using the float data type to set the coordinates of a square](./img/11.png)\r\n\r\nRun the code.  You should see a grey window with a white square drawn in it.\r\n\r\n\r\n##Not a syntax error!\r\n\r\nUpdate the code by changing the amount assigned to the xCoordinate variable from 50.67 to just 50.\r\n\r\nRun the code.  Why did it work? Can you explain what happened?  Ask your lecturer to explain it if you are not sure. \r\n\r\nChange the amount assigned to the xCoordinate variable back to 50.67.\r\n\r\n\r\n##A syntax error\r\n\r\nUpdate the code by changing **float** to **double**.  \r\n\r\nYou have a syntax erorr.  Can you explain why?  Ask your lecturer to explain it if you are not sure. \r\n\r\nChange **double** back to **float**.\r\n\r\n\r\n##Another syntax error\r\n\r\nUpdate the code by renaming the **yCoordinate** variable name to **xCoordinate**, as shown below:\r\n\r\n~~~java\r\nfloat xCoordinate = 50.67;\r\nfloat xCoordinate = 100.33;\r\nrect(xCoordinate, yCoordinate, 80,80);\r\n~~~\r\n\r\nYou have a syntax error...can you explain why?  Ask your lecturer to explain it if you are not sure. \r\n\r\nChange the code back.\r\n\r\nSave and close the sketchbook.\r\n\r\n\t"
+    },
+  
+    {
+    "title": "Exercises",
+    "shortTitle": "Exercises",
+    "contentMd" : "#Exercises\r\n\r\nThe exercises are typically based on the material we covered in the previous steps in this lab and the associated lectures.\r\n\r\nFor each exercise listed below, open a new sketch.\r\n\r\n\r\n##Exercise 1 (static drawing)\r\n\r\nIn Step04 we entered this code:\r\n\r\n![Six blue lines](./img/09.png)\r\n\r\nWhich produced this output:\r\n\r\n![Six blue lines](./img/10.png)\r\n\r\nUsing this code as a starting point, make the following changes so that your output looks like this:\r\n\r\n![Desired output](./img/12.png)\r\n\r\nNOTE: the object of this exercise is to use the arithmetic operators on the variables (a,b,c).\r\n\r\n\r\n##Exercise 2 (static drawing)\r\n\r\nThe object of this exercise is to produce the same output as Exercise 1, but instead of using variables (a,b,c) use the **width** and **height** system variables and perform artihmetic calculations on them to produce the desired output.\r\n\r\n\r\n##Exercise 3 (animated drawing)\r\n\r\nProduce the following animation:\r\n\r\n- a white circle is drawn when you move the mouse; only one circle is visible at one time (i.e. all previous ones are cleared).\r\n\r\n- the x and y coordinates for the circle are dependent on the mouse position (hint: use system variables mouseX and mouseY).\r\n\r\n- the size of the circle is determined by the y mouse coordinate.\r\n\r\n\r\nWhen you run your code, your circle should grow in size as you move your mouse pointer down the window and reduce in size when you move your mouse up the window.  When you move your mouse horizontally, the circle should stay the same size.  \r\n\r\n![Some sample output](./img/13.png)\r\n\r\n\r\n##Exercise 4 (animated drawing)\r\n\r\nUsing exercise 3 as a starting point (i.e. keeping the white circle functionality), add the following black circle animation to it:\r\n\r\n- a black circle is drawn when you move the mouse (all previous black circles are cleared).\r\n\r\n- the x coordinate for the black circle is the mouseY coordinate and the y coordinate for the circle is mouseX.\r\n\r\n- the size of the circle is determined by the x mouse coordinate.\r\n\r\n\r\nWhen you run your code, the black circle should overlap the white circle when you drag your mouse from (0,0) diagnolally down to (100,100).  When you move your mouse horizontally, the black circle show grow/shrink in size.  It remains the same size when the mouse is dragged vertically.  Note that the white circle's behaviour hasn't changed.\r\n\r\n![Some sample output](./img/14.png)\r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Challenges",
+    "shortTitle": "Challenges",
+    "contentMd" : "#Challenges\r\n\r\nFor each exercise listed below, open a new sketchbook.\r\n\r\nYou may need to visit the [Processing website](https://processing.org/reference/) for additional information.\r\n\r\n\r\n##Challenge 1 (animated drawing with no cursor)\r\n\r\nDo some research to figure out how to turn the mouse pointer (cursor) off.\r\n\r\nImplement this functionality in any one of the exercises from the previous step.\r\n\r\n\r\n##Challenge 2 (animated drawing with a different cursor)\r\n\r\nDo some research to figure out how to turn the mouse pointer (cursor) into a *hand*.\r\n\r\nImplement this functionality in any one of the exercises from the previous step.\r\n\r\n\r\n##Challenge 3 (animated drawing using a drag effect)\r\n\r\nDo some research into the Processing variables:  pmousex and pmousey.\r\n\r\nWrite a Processing sketch that uses these variables. \r\n\r\n"
+    },
+  
+    {
+    "title": "Solutions",
+    "shortTitle": "Solutions",
+    "contentMd" : "#Solutions\r\n\r\nThe solutions for this lab can be found [here](archives/lab02_solutions.zip). \r\n\r\nIf you require unzipping software, 7zip is a good choice: <http://www.7-zip.org/> (or Keka for Mac <http://www.kekaosx.com/en/>)\r\n\r\nAfter unzipping the solutions, it might be a good idea to copy the folders to your **sketchbook** folder.  From Processing, you could then use **File**, followed by **Sketchbook** to easily open them.\r\n"
+    }
+  
+  ]
+  }
+

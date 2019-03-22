@@ -1,0 +1,35 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-11d",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>PongGame V9.0</p>",
+  "folder" : "book-v9",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "Lab-11d",
+    "contentMd" : "#Objectives\r\n\r\nPongGame V9.0 \r\n"
+    },
+  
+    {
+    "title": "Game of Pong - V9.0",
+    "shortTitle": "V9",
+    "contentMd" : "#Game of Pong - V9.0\r\n\r\nIn this lab, you will work on PongGameV9_0.\r\n\r\nWe will refactor PongGameV8_0 so that it uses the Pythagorean Theorem version for collision detection.\r\n\r\nOpen your latest version of PongGame version 8. If you wish, you can use this solution [here](archives/PongGameV8_0.zip).\r\n\r\nSave this as PongGameV9_0.\r\n\r\n\r\n##hitPaddle method\r\n\r\nIn your PongGameV9_0 class, you will see a **hitPaddle** method.  \r\n\r\nReplace it with this code i.e. the pythagoreas version of collision detection:\r\n\r\n~~~java\r\n//method returns true if the ball and paddle overlap (i.e. ball is hit), false otherwise.\r\n\r\nboolean hitPaddle(Paddle paddle, Ball ball)\r\n{\r\n   //These variables measure the magnitude of the gap between the paddle and the ball.  \r\n   float circleDistanceX = abs(ball.getXCoord() - paddle.getXCoord() - paddle.getPaddleWidth()/2);\r\n   float circleDistanceY = abs(ball.getYCoord() - paddle.getYCoord() - paddle.getPaddleHeight()/2);\r\n   \r\n   if (circleDistanceX > (paddle.getPaddleWidth()/2  + ball.getDiameter()/2)) { return false; }\r\n   if (circleDistanceY > (paddle.getPaddleHeight()/2 + ball.getDiameter()/2)) { return false; }\r\n\r\n   if (circleDistanceX <= (paddle.getPaddleWidth()/2))  { \r\n      return true;\r\n   }\r\n   if (circleDistanceY <= (paddle.getPaddleHeight()/2)) { \r\n      return true;\r\n   } \r\n   \r\n   float cornerDistance = pow(circleDistanceX - paddle.getPaddleWidth()/2,  2) +\r\n                          pow(circleDistanceY - paddle.getPaddleHeight()/2, 2);\r\n                    \r\n   if (cornerDistance <= pow(ball.getDiameter()/2, 2)){\r\n      return true;\r\n   } \r\n   else{\r\n      return false;\r\n   }\r\n}\r\n~~~\r\n\r\nRun your game to ensure that the collision detection works correctly. \r\n\r\n\r\n##Solution\r\n\r\nIf your code is not working, the solution can be found [here](archives/PongGameV9_0.zip). \r\n\r\n"
+    }
+  
+  ]
+  }
+

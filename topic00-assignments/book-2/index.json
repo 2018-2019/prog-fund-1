@@ -1,0 +1,53 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Assignment-2",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>This is your second assignment that will contribute to your grade for the semester.  You are asked to write a working animation. You will be asked to interview on your code during study week.</p>",
+  "folder" : "book-2",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": " Assignment 2 (70%)",
+    "shortTitle": "Assignment-2",
+    "contentMd" : "# Assignment 2 (70%)\r\n\r\nThis is your second assignment that will contribute to your grade for the semester.  You are asked to write a working animation. You will be asked to interview on your code during study week.\r\n\r\n"
+    },
+  
+    {
+    "title": "Specification",
+    "shortTitle": "01",
+    "contentMd" : "#Specification\r\n\r\nThis is the specification of your second summative assignment i.e. the grade for this assignment will go towards your final module mark. This specification will describe:\r\n\r\n - What is expected from your code.\r\n - The marking scheme for the assignment.\r\n - Submission details including submission date.\r\n\r\n \r\n#Assignment Advice\r\n\r\n- Read the specification carefully.\r\n- Start working on the assignment early.\r\n- When you think you are ready to submit check the following: \r\n    - Ensure you have all covered all the elements mentioned in the marking scheme\r\n    - Ensure specifically that your indentation is consistent. \r\n    - Write comments to explain what any classes and methods do and how any particularly tricky code works and what it does.\r\n    - Ensure that your name, student number and description of what your code does is written at the top of the sketch file.\r\n    - Ensure that you have named the submission (zip) file according to the prescribed naming convention. \r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Specification",
+    "shortTitle": "02",
+    "contentMd" : "#Specification\r\n\r\nIn this assignment, you are asked to write code to produce a working animation of your choice in Processing (Java).\r\n\r\nThe aim of the assignment is for you to demonstrate your understanding of structures seen so far, so you are asked to include the following:\r\n\r\n- At least one user-defined class, adhering to encapsulation rules, complete with:\r\n    - fields\r\n    - constructors\r\n    - getters\r\n    - setters\r\n    - other methods\r\n- The usual Processing class containing the draw(), setup(), etc.  This class must use your user-defined class(es) in an appropriate manner.\r\n- Use of String methods.\r\n- Use of primitive arrays.\r\n\r\n\r\nRefer to the Pong game covered in lectures and labs for inspiration. \r\n\r\nThe complexity of the entire code is important, i.e. the more complex the code, the more marks you will achieve. (see marking scheme)\r\n\r\n"
+    },
+  
+    {
+    "title": "Marking Scheme",
+    "shortTitle": "03",
+    "contentMd" : "#Marking Scheme\r\n\r\nThere are three components to your overall mark:\r\n\r\n- Structure of code\r\n- Complexity of code\r\n- Interview mark\r\n\r\n\r\n#Structure of Code  (100 Marks)\r\n\r\n- User-defined class (at least one):\r\n    - Creation of user-defined class with appropriate fields, constructors, getters, setters, other methods **(25 marks)**.\r\n    - The user-defined class(es) are used in an appropriate manner **(15 marks)**.\r\n\r\n- Working animation i.e. inclusion of the usual Processing class containing the draw(), setup(), etc. **(20 marks)**\r\n\r\n- Data structure:\r\n    - Use of a data structure to store information i.e. a primitive array **(15 marks)**.\r\n    - Calculations performed on the information stored **(10 marks)**.\r\n\r\n- Use of String methods **(5 marks)**.\r\n\r\n- Comments, indentation, naming, structure of code, using readme tab, using correct name on submission, etc. **(10 Marks)**\r\n\r\n\r\n#Complexity of code (10 Marks)\r\nThis is a mark out of 10 based on the complexity of the problem solved/code. So you will get more marks if the animation is more involved than one that is very simple. Please do not confuse an elegant solution of a complex problem with a simple problem.\r\n\r\n\r\n#Interview Mark (10 Marks) \r\n\r\nYou will be asked to explain your work and the end of week 12 or the Monday in study week. This is to ensure that the work is your own. You may be asked (for example) to explain:\r\n\r\n- Any of the code.\r\n- How you decided on your animation.\r\n- How you developed your animation; where did you start first, etc?\r\n- Anything else.\r\n\r\n \r\n#How is the final mark calculated?\r\n \r\n The final mark is calculated by multiplying the three component marks and dividing by 100. This means that each of the marks is used as a multiplier so a weakness in any of the components will negatively affect your grade.\r\n\r\n Example:\r\n \r\n - Structure of code = 80/100\r\n - Complexity of code = 9/10\r\n - Interview Mark = 10/10\r\n - Final mark = (80 by 9 by 10)/100 = 72%\r\n\r\n\r\n#Note\r\nSpecifically, the multiplier effect means that if you do not present for your interview you will receive 0 for the interview and 0% overall. This means you must be avaiable for interview when requested. \r\n\r\n"
+    },
+  
+    {
+    "title": "Handup of submission",
+    "shortTitle": "04",
+    "contentMd" : "#Handup of submission\r\n\r\n##Date\r\n\r\nThe submission is due on Sunday evening, 9th December at 5 pm SHARP.  No late submissions will be accepted (unless mitigating circumstances, with supporting documentation, apply).\r\nInterviews on the assignments will be scheduled for (the following day) - Monday of Week 13. Attendance is compulsory. \r\n\r\n\r\n##Where \r\n\r\nThe dropbox is available in the 'Assignments' section in Moodle.\r\n\r\n\r\n##File naming convention\r\n\r\nYour files should be contained in a **folder** named  according to the rule: \r\n\r\n- *First name* + *Second name*, e.g. Siobhan Drohan's folder would be called *SiobhanDrohan*. \r\n\r\nYou should then compress (zip) the **folder** that contains all the sketches used to develop your assignment; this is the file that you should submit.\r\n\r\n\r\n##readme tab\r\nYou should include a readme tab in the sketchbook that you use to write the following information in the following format:\r\n\r\n~~~\r\n/*\r\nName : \r\nStudent Number:\r\nCourse Name: \r\n\r\nBrief description of the animation achieved:\r\n\r\nKnown bugs/problems:\r\n\r\nAny sources referred to during the development of the assignment (no need to reference lecture/lab materials):\r\n\r\n*/\r\n~~~\r\n\r\n"
+    }
+  
+  ]
+  }
+

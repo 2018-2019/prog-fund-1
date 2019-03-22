@@ -1,0 +1,881 @@
+
+
+
+  {
+  
+  
+    "properties" : {"highlightstyle":"railscasts","courseurl":"http://2018-2019.github.io/prog-fund-1/","credits":"Dr. Siobhan Drohan and Ms. Mairead Meagher, WIT."},
+  
+  "type" : "course",
+  "title" : "Programming Fundamentals I ",
+  "img" : "",
+  "videoid" : "",
+  "objectives" : "<p>This is an introductory Programming module and assumes no prior knowledge of programming. </p>",
+  "folder" : "prog-fund-1",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "topics" : [  {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " Assignments ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>The details of your assignments for Programming Fundamentals I is available here.</p>",
+  "folder" : "topic00-assignments",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Assignment-1",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>This is your first assignment that will contribute to your grade for the module.  You are asked to write a working animation. You will then be asked to present your code during your lab the week following submission.</p>",
+  "folder" : "book-1",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Assignment-2",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>This is your second assignment that will contribute to your grade for the semester.  You are asked to write a working animation. You will be asked to interview on your code during study week.</p>",
+  "folder" : "book-2",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 1: Introduction to Processing ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>processing · java · drawing shapes · colour · grayscale · RGB · syntax errors · commenting code</p>",
+  "folder" : "topic01-intro-to-processing",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Coding in Processing ",
+  "img" : "a-intro-to-processing.png",
+  "videoid" : "none",
+  "objectives" : "<p>Processing · introduction to coding · drawing basic shapes</p>",
+  "folder" : "talk-1-intro-to-processing",
+  "link" : "a-intro-to-processing.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Static Drawings ",
+  "img" : "b-processing-static-drawings.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>static drawings · colour · grayscale · RGB · fill · stroke · logic errors · syntax errors · commenting code</p>",
+  "folder" : "talk-2-static-drawings",
+  "link" : "b-processing-static-drawings.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-01",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Processing PDE · drawing basic shapes · colour · grayscale · RGB</p>",
+  "folder" : "book-1",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 2: Animating your Drawings ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>animating simple drawings · variables · system variables · primitive data types · operators</p>",
+  "folder" : "topic02-animate-your-drawings",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Basic Animation ",
+  "img" : "a-processing-basic-animation.png",
+  "videoid" : "none",
+  "objectives" : "<p>setup() · draw() · animate drawings · system variables</p>",
+  "folder" : "talk-1-basic-animation",
+  "link" : "a-processing-basic-animation.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Data Types ",
+  "img" : "b-processing-data-types.png",
+  "videoid" : "none",
+  "objectives" : "<p>primitive data types · variables · arithmetic operators</p>",
+  "folder" : "talk-2-data-types",
+  "link" : "b-processing-data-types.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-02",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>animate simple drawings · variables · system variables · primitive data types · arithmetic operators</p>",
+  "folder" : "book-1",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 3: Selection and Events ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>animated drawings · conditional statements · relational operators · logical operators · variables · mouse events · key events</p>",
+  "folder" : "topic03-if-stmt-and-events",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Conditional Statements ",
+  "img" : "a-processing-conditional-statements.png",
+  "videoid" : "none",
+  "objectives" : "<p>animated drawings · conditional statements · boolean expressions · relational operators · logical operators.</p>",
+  "folder" : "talk-1-conditional-statements",
+  "link" : "a-processing-conditional-statements.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Mouse Events ",
+  "img" : "b-processing-mouse-events.png",
+  "videoid" : "none",
+  "objectives" : "<p>animated drawings · operators · mouse events · order of evaluation</p>",
+  "folder" : "talk-2-mouse-events",
+  "link" : "b-processing-mouse-events.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-03",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>animated drawings · conditional statements · relational operators · logical operators · variables · mouse events · key events</p>",
+  "folder" : "book-1",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "4: Iteration (Loops) ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>iteration · for loops · while loops · variable scope · compound assignment statements · print · println</p>",
+  "folder" : "topic04-iteration-for-while",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Scope of Variables ",
+  "img" : "a-scope-of-variables.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>variable scope · compound assignment statements · print · println</p>",
+  "folder" : "talk-1-scope-of-variables",
+  "link" : "a-scope-of-variables.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "While loops ",
+  "img" : "b-processing-iteration-while.png",
+  "videoid" : "none",
+  "objectives" : "<p>iteration · while loops</p>",
+  "folder" : "talk-2-iteration-while",
+  "link" : "b-processing-iteration-while.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "For loops ",
+  "img" : "c-processing-iteration-for.png",
+  "videoid" : "none",
+  "objectives" : "<p>iteration · for loops · while loops</p>",
+  "folder" : "talk-3-iteration-for",
+  "link" : "c-processing-iteration-for.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-04",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>variable scope · iteration · for loops · while loops · print · println</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "5: Methods (Part 1) ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>method signature · return types · parameters · mouse event methods · bespoke methods</p>",
+  "folder" : "topic05-methods",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Mouse event methods ",
+  "img" : "a-processing-mouse-event-methods.png",
+  "videoid" : "none",
+  "objectives" : "<p>methods · method signature · return type · parameters · mouse events · event methods · mouse system variables</p>",
+  "folder" : "talk-1-mouse-event-methods",
+  "link" : "a-processing-mouse-event-methods.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Bespoke methods ",
+  "img" : "b-processing-bespoke-methods.png",
+  "videoid" : "none",
+  "objectives" : "<p>bespoke methods · return type · method signature · parameters</p>",
+  "folder" : "talk-2-bespoke-methods",
+  "link" : "b-processing-bespoke-methods.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-05",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>methods · mouse event methods · bespoke methods</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "6: Methods (Part 2) ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>more sophisticated methods · return types · parameters · recursion · Strings · API · String methods · JOptionPane</p>",
+  "folder" : "topic06-more-on-methods",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "More on methods ",
+  "img" : "a-processing-more-on-methods.png",
+  "videoid" : "none",
+  "objectives" : "<p>more sophisticated methods · return types · parameters · recursion</p>",
+  "folder" : "talk-1-more-on-methods",
+  "link" : "a-processing-more-on-methods.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Strings ",
+  "img" : "b-processing-strings.png",
+  "videoid" : "none",
+  "objectives" : "<p>String · API · String methods</p>",
+  "folder" : "talk-2-strings",
+  "link" : "b-processing-strings.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-06",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>more sophisticated methods · return types · parameters · Strings · String methods · JOptionPane</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "7: Classes (Part 1)  ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>String methods · Objects · Classes · behaviour · attributes · Spot class</p>",
+  "folder" : "topic07-strings-and-intro-to-classes",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "More on Strings ",
+  "img" : "a-processing-more-on-strings.png",
+  "videoid" : "none",
+  "objectives" : "<p>charAt · substring · compareTo · identity vs equality · null · escape sequences</p>",
+  "folder" : "talk-1-more-on-strings",
+  "link" : "a-processing-more-on-strings.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Classes and Objects ",
+  "img" : "b-processing-classes-and-objects.png",
+  "videoid" : "none",
+  "objectives" : "<p>objects · classes · object state · attributes · bahaviours · class design · constructors · Spot</p>",
+  "folder" : "talk-2-classes-and-objects",
+  "link" : "b-processing-classes-and-objects.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-07",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>charAt · compareTo · substring · objects · classes · object state · attributes · bahaviours · class design · constructors · Spot</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 8: Classes (Part 2) ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>classes · methods · behaviour · overloading · validation · this · encapsulation · access modifiers · accessors · mutators</p>",
+  "folder" : "topic08-classes-encapsulation",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Behaviour in Classes ",
+  "img" : "a-processing-classes-adding-behaviour.png",
+  "videoid" : "none",
+  "objectives" : "<p>classes · methods · behaviour · overloading · validation · this</p>",
+  "folder" : "talk-1-adding-behaviour",
+  "link" : "a-processing-classes-adding-behaviour.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Classes and Objects ",
+  "img" : "b-processing-encapsulation.png",
+  "videoid" : "none",
+  "objectives" : "<p>classes · encapsulation · access modifiers · accessors · mutators</p>",
+  "folder" : "talk-2-encapsulation",
+  "link" : "b-processing-encapsulation.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-08",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>classes · methods · behaviour · overloading · validation · this · encapsulation · access modifiers · accessors · mutators</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 9: Swing and Arrays ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>GUI · Swing · JOptionPane · dialog boxes · primitive arrays · array syntax</p>",
+  "folder" : "topic09-swing-and-arrays",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Using Swing ",
+  "img" : "a-processing-joptionpane.png",
+  "videoid" : "none",
+  "objectives" : "<p>GUI · Swing · JOptionPane · dialog boxes</p>",
+  "folder" : "talk-1-joptionpane",
+  "link" : "a-processing-joptionpane.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Using Arrays ",
+  "img" : "a-processing-arrays.png",
+  "videoid" : "none",
+  "objectives" : "<p>primitive arrays · array syntax · arrays and loops</p>",
+  "folder" : "talk-2-intro-to-arrays",
+  "link" : "a-processing-arrays.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-09",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>GUI · Swing · JOptionPane · dialog boxes · primitive arrays · array syntax</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 10: Arrays and Classes ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>primitive arrays · array syntax · arrays and loops · length · classes</p>",
+  "folder" : "topic10-arrays-and-classes",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Array Recap ",
+  "img" : "a-array-recap.png",
+  "videoid" : "none",
+  "objectives" : "<p>primitive arrays · array syntax · arrays and loops · length</p>",
+  "folder" : "talk-1-array-recap",
+  "link" : "a-array-recap.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Arrays and Classes ",
+  "img" : "b-processing-arrays-classes.png",
+  "videoid" : "none",
+  "objectives" : "<p>primitive arrays · classes</p>",
+  "folder" : "talk-2-arrays-and-classes",
+  "link" : "b-processing-arrays-classes.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-10",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>primitive arrays · length property · array of classes</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 11: Game of Pong ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>Game of Pong · Ball class · Paddle class · Player class · Tournaments · Statistics · Collision detection</p>",
+  "folder" : "topic11-pong",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Game of Pong ",
+  "img" : "a-processing-game-of-pongV1_V2.png",
+  "videoid" : "WVp3QofGIMw",
+  "objectives" : "<p>V1.0 (Ball class) · V2.0 (Paddle class)</p>",
+  "folder" : "talk-1-pong-v1-and-v2",
+  "link" : "a-processing-game-of-pongV1_V2.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Game of Pong  ",
+  "img" : "b-processing-game-of-pongV3_V4_V5.png",
+  "videoid" : "A7-lV8uMKiQ",
+  "objectives" : "<p>V3.0 (Simple Collision detection) · V4.0 (Lives lost, lives per game, score) · V5.0 (Tournaments)</p>",
+  "folder" : "talk-2-pong-v3-v4-v5",
+  "link" : "b-processing-game-of-pongV3_V4_V5.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Game of Pong ",
+  "img" : "c-processing-game-of-pongV6_V7_V8.jpg",
+  "videoid" : "CtZO1Ys89uE",
+  "objectives" : "<p>V6.0 (Player class – array, no statistics) · V7.0 (Player class – array, with statistics) · V8.0 (JOptionPane for I/O)</p>",
+  "folder" : "talk-3-pong-v6-v7-v8",
+  "link" : "c-processing-game-of-pongV6_V7_V8.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Game of Pong ",
+  "img" : "d-processing-game-of-pong-V9-pythagoras.png",
+  "videoid" : "none",
+  "objectives" : "<p>V9.0 (Pythagorus Collision detection)</p>",
+  "folder" : "talk-4-pong-v9",
+  "link" : "d-processing-game-of-pong-V9-pythagoras.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-11a",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Game of Pong Architecture · Solutions for all versions · PongGame V1.0 · PongGameV2.0</p>",
+  "folder" : "book-v1-v2",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-11b",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>PongGame V3.0 · PongGame V4.0 · PongGameV5.0</p>",
+  "folder" : "book-v3-v4-v5",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-11c",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>PongGame V6.0 · PongGame V7.0 · PongGameV8.0</p>",
+  "folder" : "book-v6-v7-v8",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-11d",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>PongGame V9.0</p>",
+  "folder" : "book-v9",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  }
+ ]
+  }
+

@@ -1,0 +1,53 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Assignment-1",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>This is your first assignment that will contribute to your grade for the module.  You are asked to write a working animation. You will then be asked to present your code during your lab the week following submission.</p>",
+  "folder" : "book-1",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": " Assignment 1 (30%)",
+    "shortTitle": "Assignment-1",
+    "contentMd" : "# Assignment 1 (30%)\r\n\r\nThis is your first assignment that will contribute to your grade for the module.  You are asked to write a working animation. You will then be asked to present your code during your lab the week following submission.\r\n\r\n"
+    },
+  
+    {
+    "title": "Specification",
+    "shortTitle": "01",
+    "contentMd" : "#Specification\r\n\r\nThis is the specification of your first summative assignment. This means that this is the first time that your submission will go towards your final module mark. This specification will describe:\r\n\r\n - What is expected from your code\r\n - The marking scheme for the assignment.\r\n - Submission details including submission date\r\n\r\n \r\n#Assignment Advice\r\n\r\n- Read the specification carefully.\r\n- Start working on the assignment early.\r\n- When you think you are ready to submit check the following: \r\n    - Ensure you have all covered all the elements mentioned in the marking scheme\r\n    - Ensure specifically that your indentation is consistent. \r\n    - Write comments to explain what any methods do and how any particularly tricky code works and whatt it does\r\n    - Ensure that your name, student number and description of what your code does is written at the top of the sketch file.\r\n    - Ensure that you have named the submission (zip) file according to the prescribed naming convention i.e. firstnameSurname.zip \r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Specification",
+    "shortTitle": "02",
+    "contentMd" : "#Specification\r\n\r\nYou are asked to write code to produce a working animation of your choice. The aim of the assignment is for you to demonstrate your understanding of structures seen so far, so you are asked to include the following:\r\n\r\n- Methods:\r\n\r\n    - setup(), draw(), any other methods appropriate to your animation.\r\n \r\n\r\n- Conditional Statements:\r\n\r\n    - if and if-else statements\r\n \r\n\r\n- Repetition:\r\n\r\n    - loops and nested loops (note the draw() method does not consitute a loop in this case).\r\n\r\n\r\n - Coding Standards:\r\n\r\n    - follow naming conventions, indentation, commenting, etc.\r\n\r\n\r\nThe complexity of the entire code is important, i.e. the more complex the code, the more marks you will achieve (see marking scheme).\r\n"
+    },
+  
+    {
+    "title": "Marking Scheme",
+    "shortTitle": "03",
+    "contentMd" : "#Marking Scheme\r\n\r\nThere are three components to your overall mark:\r\n\r\n- Structure of code\r\n- Complexity of code\r\n- Interview mark\r\n\r\n#Structure of Code  (100 Marks)\r\n- Working animation using setup() and draw() **(20 Marks)**\r\n- Use of methods **(20 marks)**\r\n    - i.e. methods *other* than setup() and draw() \r\n- Use of loops:\r\n    - loop **(20 Marks)**\r\n    - nested loop **(10 extra marks)**\r\n- Use of:\r\n    - if statement **(10 Marks)**\r\n    - if .. then .. else **(5 extra Marks)**\r\n- Comments, indentation, naming standards, etc **(15 Marks)** \r\n\r\n\r\n#Complexity of code (10 Marks)\r\n\r\nThis is a mark out of 10 based on the complexity of the problem solved/code. So you will get more marks if the animation is more involved than one that is very simple. Please do not confuse an elegant solution of a complex problem with a simple problem.\r\n\r\n\r\n#Interview Mark (10 Marks) \r\n\r\nYou will be asked to explain your work. This is to ensure that the work is your own. You may be asked (for example) to explain:\r\n\r\n- Any of the code.\r\n- The effect of changing values in the for loop.\r\n- How you decided on your animation and how you developed it. \r\n- Anything else.\r\n\r\n \r\n#How is the final mark calculated?\r\n \r\n The final mark is calculated by multiplying the three component marks and dividing by 100. This means that each of the marks is used as a multiplier so a weakness in any of the components will result in an overall lower grade.\r\n\r\n Example:\r\n \r\n - Structure of code = 80/100\r\n - Complexity of code = 9/10\r\n - Interview Mark = 10/10\r\n - Final mark = (80 by 9 by 10)/100 = 72%\r\n\r\n\r\n#Note\r\nSpecifically, the multiplier effect means that if you do not present for your interview you will receive 0 for the interview and 0% overall. This means you **must** be avaiable for interview during the labs the week after submission. "
+    },
+  
+    {
+    "title": "Handup of submission",
+    "shortTitle": "04",
+    "contentMd" : "#Handup of submission\r\n\r\n##Date\r\nThe submission is due on Friday 2nd November, 2018 at 5PM  SHARP.  No late submissions will be accepted (unless mitigating circumstances, with supporting documentation, apply).\r\n\r\n\r\n##Where \r\nThe dropbox is available in the 'Assignments' section.\r\n\r\n\r\n##File naming convention\r\nYour file should be contained in a sketchbook named  according to the rule: \r\n\r\nfirst name + Second name, e.g. Siobhan Drohan's sketchbook would be called siobhanDrohan. You should then compress (zip) the **folder** that contains this  sketchbook (siobhanDrohan) and this is the file that you should submit.\r\n\r\n\r\n##readme tab\r\nYou should include a readme tab in the sketchbook that you use to write the following information in the following format:\r\n\r\n~~~\r\n/*\r\nName : \r\nStudent Number:\r\nProgramme Name: \r\n\r\nBrief description of the animation achieved:\r\n\r\nKnown bugs/problems:\r\n\r\nAny sources referred to during the development of the assignment (no need to reference lecture/lab materials):\r\n\r\n*/\r\n~~~\r\n"
+    }
+  
+  ]
+  }
+

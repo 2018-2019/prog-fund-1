@@ -1,0 +1,53 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-10",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>primitive arrays · length property · array of classes</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "Lab-10",
+    "contentMd" : "#Objectives\r\n\r\nprimitive arrays · length property · array of classes "
+    },
+  
+    {
+    "title": "Arrays and length",
+    "shortTitle": "01",
+    "contentMd" : "#Arrays and length\r\n\r\nIn this step, we will update the solution to lab05a exercise 1 to include the **length** property.\r\n\r\n\r\n##Using length\r\n\r\nCreate a new Processing sketch in your workspace and call it **lab10_exercise_1_updated**.\r\n\r\nUse the following code as your starting point (cut and paste):\r\n\r\n~~~java \r\nint numbers[] = new int[10];             \r\n\r\n// initialise each value to 20\r\nfor (int i = 0; i < 10 ; i ++)  {    \r\n  numbers[i] = 20;\r\n}      \r\n\r\n// now we print each value\r\nfor (int i = 0; i < 10 ; i ++)   {   \r\n      println(\"Number \" + (i+1) + \" is: \" + numbers[i]);\r\n} \r\n~~~\r\n\r\nRun the code. Each of the 10 elements in the array is set to a starting value of 20.\r\n\r\nNow update the code so that you use **numbers.length** instead of hard coding 10 into the for loop.\r\n\r\nRun the code. It should work the exact same as previously, however, it is now more maintainable.  Your code should now be:\r\n\r\n~~~java\r\nint numbers[] = new int[10];             \r\n\r\n// initialise each value to 20\r\nfor (int i = 0; i < numbers.length ; i ++)  {    \r\n  numbers[i] = 20;\r\n}      \r\n\r\n// now we print each value\r\nfor (int i = 0; i < numbers.length ; i ++)   {   \r\n      println(\"Number \" + (i+1) + \" is: \" + numbers[i]);\r\n} \r\n~~~\r\n\r\nNow, change the size of the array to hold 15 elements - you should only need to change it in the array declaration.  Run your code to make sure the 15 elements were initialised to 20.\r\n\r\nSave your work and close the sketch.\r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Arrays and Classes",
+    "shortTitle": "02",
+    "contentMd" : "#Arrays and Classes\r\n\r\nIn this step, we will start building arrays using String and Spot.\r\n\r\n\r\n##Array of String\r\n\r\nCreate a new Processing sketch in your workspace and call it **lab10_array_string**.\r\n\r\nCreate an array of String with a size of 4.  \r\n\r\nIn index location 1, place the String **Dog**.  In index location 3, place the String **Cat**.  Then cycle over the array and print out the contents of each element to the console.\r\n\r\nRun your code.  You should get output similar to this:\r\n\r\n~~~\r\nnull\r\nDog\r\nnull\r\nCat\r\n~~~\r\n\r\nThe solution code is here:\r\n\r\n~~~java\r\nString words[];\r\n\r\nwords = new String[4];\r\n\r\nwords[1] = \"Dog\";\r\nwords[3] = \"Cat\";\r\n\r\nfor (int i=0; i < words.length; i++)\r\n{\r\n    println(words[i]);\r\n}\r\n~~~\r\n\r\nSave your sketch and close the project.\r\n\r\n\r\n##Array of Spot\r\n\r\nCreate a new Processing sketch in your workspace and call it **lab10_array_spot**.\r\n\r\nCreate a new tab called **Spot**.  Copy and paste this code into it:\r\n\r\n~~~java\r\n//Spot Version 6.1\r\n\r\nclass Spot{\r\n  \r\n  float xCoord, yCoord;\r\n  float diameter;\r\n  int red, green, blue, gray;\r\n  \r\n  Spot()\r\n  {\r\n  }\r\n  \r\n Spot(float xCoord, float yCoord, float diameter)\r\n {\r\n    this.xCoord = xCoord;\r\n    this.yCoord = yCoord;\r\n    this.diameter = diameter;\r\n  }\r\n  \r\n   Spot(float xCoord, float yCoord, float diameter, int gray)\r\n   {\r\n    this.xCoord = xCoord;\r\n    this.yCoord = yCoord;\r\n    this.diameter = diameter;\r\n    colour(gray);\r\n   }\r\n\r\n   Spot(float xCoord, float yCoord, float diameter, int red, int green, int blue)\r\n   {\r\n    this.xCoord = xCoord;\r\n    this.yCoord = yCoord;\r\n    this.diameter = diameter;\r\n     colour(red, green, blue);  \r\n   }\r\n   \r\n   void display()\r\n   {\r\n     ellipse(xCoord, yCoord, diameter, diameter);\r\n   } \r\n  \r\n  void colour(int red, int green, int blue)\r\n  {\r\n    this.red = red;\r\n    this.green = green;\r\n    this.blue = blue;\r\n    fill (this.red, this.green, this.blue);\r\n  }\r\n\r\n  void colour(int gray){\r\n    this.gray = gray;\r\n    fill (this.gray);\r\n  }\r\n   \r\n   void move(float xCoord, float yCoord)\r\n   {\r\n     this.xCoord = xCoord;\r\n     this.yCoord = yCoord;\r\n   }\r\n}\r\n~~~\r\n\r\nIn the **main** tab:\r\n\r\n- create an array of Spot with a size of 4.  \r\n\r\n- add a setup() method and set the size of the sketch to (500,500).  Inside this method, add a for loop that will populate the spot array with four new spots.  Hint: you can use mathematical operators on the for loop index to generate xCoord, yCoord and diameter for each spot. \r\n\r\n- add a draw() method.  This method should have a for loop in it that will display each spot in the array and also change the colour of the spot based on the mouse location.\r\n\r\n\r\nRun your code.  You should get output similar to this, depending on the mouse location:\r\n\r\n![](./img/01.png)\r\n\r\nThe solution code for the **main** tab is here:\r\n\r\n~~~java\r\nSpot[] spots;\r\n\r\nvoid setup(){\r\n  size(500,500);\r\n  \r\n  spots = new Spot[4];\r\n  \r\n  for(int i = 1; i <= spots.length; i++){\r\n     spots[i-1] = new Spot(i*50, i*100, i*30);\r\n  }\r\n  \r\n}\r\n\r\nvoid draw(){\r\n  \r\n  for (int i=0; i < spots.length; i++){\r\n     spots[i].display();\r\n     spots[i].colour(mouseX, mouseY, 0);\r\n  }\r\n  \r\n}\r\n~~~\r\n\r\nSave your sketch and close the project.\r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Exercises",
+    "shortTitle": "Exercises",
+    "contentMd" : "#Exercises\r\n\r\nThere is only one exercise this session and no challenges.  This will free up the lab time for an assignment studio.\r\n\r\n\r\n##Exercise 1 \r\n\r\nCreate a new Processing sketch in your workspace and call it **lab10_exercise_2_updated**.\r\n\r\nUse the following code as your starting point (cut and paste):\r\n\r\n~~~java \r\nimport javax.swing.*;  \r\n\r\nint numbers[] = new int[5];             \r\n\r\n//populate the array with user input\r\nfor (int i = 0; i < 5 ; i ++)  {    \r\n  numbers[i] = Integer.parseInt(\r\n    JOptionPane.showInputDialog(\r\n      \"Please enter a number \", \"3\"));  \r\n}      \r\n// print each value in reverse order \r\nfor (int i = 4; i >= 0 ; i --)   {   \r\n      println(\"Number \" + (i+1) + \" is: \" + numbers[i]);\r\n} \r\n~~~\r\n\r\nRun the code.  Each of the 5 elements read in, should be printed in reverse order.  \r\n\r\nNow update the code so that you use **numbers.length** instead of hard coding the array size into the for loops.\r\n\r\nRun the code. It should work the exact same as previously, however, it is now more maintainable.  \r\n\r\nSave your work and close the sketch.\r\n\r\n"
+    },
+  
+    {
+    "title": "Solutions",
+    "shortTitle": "Solutions",
+    "contentMd" : "#Solutions\r\n\r\nThe solutions for this lab can be found [here](archives/lab10_solutions.zip). \r\n\r\nIf you require unzipping software, 7zip is a good choice: <http://www.7-zip.org/> (or Keka for Mac <http://www.kekaosx.com/en/>)\r\n\r\nAfter unzipping the solutions, it might be a good idea to copy the folders to your **sketchbook** folder.  From Processing, you could then use **File**, followed by **Sketchbook** to easily open them.\r\n"
+    }
+  
+  ]
+  }
+
