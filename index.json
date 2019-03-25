@@ -7,7 +7,7 @@
     "properties" : {"highlightstyle":"railscasts","courseurl":"http://2018-2019.github.io/prog-fund-1/","credits":"Dr. Siobhan Drohan and Ms. Mairead Meagher, WIT."},
   
   "type" : "course",
-  "title" : "Programming Fundamentals I ",
+  "title" : "Programming Fundamentals I ",
   "img" : "",
   "videoid" : "",
   "objectives" : "<p>This is an introductory Programming module and assumes no prior knowledge of programming. </p>",
@@ -18,12 +18,11 @@
 ,
   "topics" : [  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " Assignments ",
+  "title" : " Assignments ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>The details of your assignments for Programming Fundamentals I is available here.</p>",
@@ -67,12 +66,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 1: Introduction to Processing ",
+  "title" : " 1: Introduction to Processing ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>processing · java · drawing shapes · colour · grayscale · RGB · syntax errors · commenting code</p>",
@@ -85,7 +83,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Coding in Processing ",
+  "title" : "Coding in Processing ",
   "img" : "a-intro-to-processing.png",
   "videoid" : "none",
   "objectives" : "<p>Processing · introduction to coding · drawing basic shapes</p>",
@@ -101,7 +99,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Static Drawings ",
+  "title" : "Static Drawings ",
   "img" : "b-processing-static-drawings.jpg",
   "videoid" : "none",
   "objectives" : "<p>static drawings · colour · grayscale · RGB · fill · stroke · logic errors · syntax errors · commenting code</p>",
@@ -132,12 +130,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 2: Animating your Drawings ",
+  "title" : " 2: Animating your Drawings ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>animating simple drawings · variables · system variables · primitive data types · operators</p>",
@@ -150,7 +147,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Basic Animation ",
+  "title" : "Basic Animation ",
   "img" : "a-processing-basic-animation.png",
   "videoid" : "none",
   "objectives" : "<p>setup() · draw() · animate drawings · system variables</p>",
@@ -166,7 +163,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Data Types ",
+  "title" : "Data Types ",
   "img" : "b-processing-data-types.png",
   "videoid" : "none",
   "objectives" : "<p>primitive data types · variables · arithmetic operators</p>",
@@ -197,12 +194,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 3: Selection and Events ",
+  "title" : " 3: Selection and Events ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>animated drawings · conditional statements · relational operators · logical operators · variables · mouse events · key events</p>",
@@ -215,7 +211,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Conditional Statements ",
+  "title" : "Conditional Statements ",
   "img" : "a-processing-conditional-statements.png",
   "videoid" : "none",
   "objectives" : "<p>animated drawings · conditional statements · boolean expressions · relational operators · logical operators.</p>",
@@ -231,7 +227,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Mouse Events ",
+  "title" : "Mouse Events ",
   "img" : "b-processing-mouse-events.png",
   "videoid" : "none",
   "objectives" : "<p>animated drawings · operators · mouse events · order of evaluation</p>",
@@ -262,12 +258,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : "4: Iteration (Loops) ",
+  "title" : "4: Iteration (Loops) ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>iteration · for loops · while loops · variable scope · compound assignment statements · print · println</p>",
@@ -280,7 +275,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Scope of Variables ",
+  "title" : "Scope of Variables ",
   "img" : "a-scope-of-variables.jpg",
   "videoid" : "none",
   "objectives" : "<p>variable scope · compound assignment statements · print · println</p>",
@@ -296,7 +291,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "While loops ",
+  "title" : "While loops ",
   "img" : "b-processing-iteration-while.png",
   "videoid" : "none",
   "objectives" : "<p>iteration · while loops</p>",
@@ -312,7 +307,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "For loops ",
+  "title" : "For loops ",
   "img" : "c-processing-iteration-for.png",
   "videoid" : "none",
   "objectives" : "<p>iteration · for loops · while loops</p>",
@@ -343,12 +338,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : "5: Methods (Part 1) ",
+  "title" : "5: Methods (Part 1) ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>method signature · return types · parameters · mouse event methods · bespoke methods</p>",
@@ -361,7 +355,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Mouse event methods ",
+  "title" : "Mouse event methods ",
   "img" : "a-processing-mouse-event-methods.png",
   "videoid" : "none",
   "objectives" : "<p>methods · method signature · return type · parameters · mouse events · event methods · mouse system variables</p>",
@@ -377,7 +371,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Bespoke methods ",
+  "title" : "Bespoke methods ",
   "img" : "b-processing-bespoke-methods.png",
   "videoid" : "none",
   "objectives" : "<p>bespoke methods · return type · method signature · parameters</p>",
@@ -408,12 +402,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : "6: Methods (Part 2) ",
+  "title" : "6: Methods (Part 2) ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>more sophisticated methods · return types · parameters · recursion · Strings · API · String methods · JOptionPane</p>",
@@ -426,7 +419,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "More on methods ",
+  "title" : "More on methods ",
   "img" : "a-processing-more-on-methods.png",
   "videoid" : "none",
   "objectives" : "<p>more sophisticated methods · return types · parameters · recursion</p>",
@@ -442,7 +435,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Strings ",
+  "title" : "Strings ",
   "img" : "b-processing-strings.png",
   "videoid" : "none",
   "objectives" : "<p>String · API · String methods</p>",
@@ -473,12 +466,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : "7: Classes (Part 1)  ",
+  "title" : "7: Classes (Part 1)  ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>String methods · Objects · Classes · behaviour · attributes · Spot class</p>",
@@ -491,7 +483,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "More on Strings ",
+  "title" : "More on Strings ",
   "img" : "a-processing-more-on-strings.png",
   "videoid" : "none",
   "objectives" : "<p>charAt · substring · compareTo · identity vs equality · null · escape sequences</p>",
@@ -507,7 +499,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Classes and Objects ",
+  "title" : "Classes and Objects ",
   "img" : "b-processing-classes-and-objects.png",
   "videoid" : "none",
   "objectives" : "<p>objects · classes · object state · attributes · bahaviours · class design · constructors · Spot</p>",
@@ -538,12 +530,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 8: Classes (Part 2) ",
+  "title" : " 8: Classes (Part 2) ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>classes · methods · behaviour · overloading · validation · this · encapsulation · access modifiers · accessors · mutators</p>",
@@ -556,7 +547,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Behaviour in Classes ",
+  "title" : "Behaviour in Classes ",
   "img" : "a-processing-classes-adding-behaviour.png",
   "videoid" : "none",
   "objectives" : "<p>classes · methods · behaviour · overloading · validation · this</p>",
@@ -572,7 +563,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Classes and Objects ",
+  "title" : "Classes and Objects ",
   "img" : "b-processing-encapsulation.png",
   "videoid" : "none",
   "objectives" : "<p>classes · encapsulation · access modifiers · accessors · mutators</p>",
@@ -603,12 +594,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 9: Swing and Arrays ",
+  "title" : " 9: Swing and Arrays ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>GUI · Swing · JOptionPane · dialog boxes · primitive arrays · array syntax</p>",
@@ -621,7 +611,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Using Swing ",
+  "title" : " Using Swing ",
   "img" : "a-processing-joptionpane.png",
   "videoid" : "none",
   "objectives" : "<p>GUI · Swing · JOptionPane · dialog boxes</p>",
@@ -637,7 +627,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Using Arrays ",
+  "title" : " Using Arrays ",
   "img" : "a-processing-arrays.png",
   "videoid" : "none",
   "objectives" : "<p>primitive arrays · array syntax · arrays and loops</p>",
@@ -668,12 +658,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 10: Arrays and Classes ",
+  "title" : " 10: Arrays and Classes ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>primitive arrays · array syntax · arrays and loops · length · classes</p>",
@@ -686,7 +675,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Array Recap ",
+  "title" : " Array Recap ",
   "img" : "a-array-recap.png",
   "videoid" : "none",
   "objectives" : "<p>primitive arrays · array syntax · arrays and loops · length</p>",
@@ -702,7 +691,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Arrays and Classes ",
+  "title" : " Arrays and Classes ",
   "img" : "b-processing-arrays-classes.png",
   "videoid" : "none",
   "objectives" : "<p>primitive arrays · classes</p>",
@@ -733,12 +722,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 11: Game of Pong ",
+  "title" : " 11: Game of Pong ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>Game of Pong · Ball class · Paddle class · Player class · Tournaments · Statistics · Collision detection</p>",
@@ -751,7 +739,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Game of Pong ",
+  "title" : "Game of Pong ",
   "img" : "a-processing-game-of-pongV1_V2.png",
   "videoid" : "WVp3QofGIMw",
   "objectives" : "<p>V1.0 (Ball class) · V2.0 (Paddle class)</p>",
@@ -767,7 +755,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Game of Pong  ",
+  "title" : "Game of Pong  ",
   "img" : "b-processing-game-of-pongV3_V4_V5.png",
   "videoid" : "A7-lV8uMKiQ",
   "objectives" : "<p>V3.0 (Simple Collision detection) · V4.0 (Lives lost, lives per game, score) · V5.0 (Tournaments)</p>",
@@ -783,7 +771,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Game of Pong ",
+  "title" : "Game of Pong ",
   "img" : "c-processing-game-of-pongV6_V7_V8.jpg",
   "videoid" : "CtZO1Ys89uE",
   "objectives" : "<p>V6.0 (Player class – array, no statistics) · V7.0 (Player class – array, with statistics) · V8.0 (JOptionPane for I/O)</p>",
@@ -799,7 +787,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Game of Pong ",
+  "title" : "Game of Pong ",
   "img" : "d-processing-game-of-pong-V9-pythagoras.png",
   "videoid" : "none",
   "objectives" : "<p>V9.0 (Pythagorus Collision detection)</p>",
