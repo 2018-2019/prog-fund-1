@@ -741,7 +741,7 @@
   "type" : "talk",
   "title" : "Game of Pong ",
   "img" : "a-processing-game-of-pongV1_V2.png",
-  "videoid" : "WVp3QofGIMw",
+  "videoid" : "WVp3QofGIMw",
   "objectives" : "<p>V1.0 (Ball class) · V2.0 (Paddle class)</p>",
   "folder" : "talk-1-pong-v1-and-v2",
   "link" : "a-processing-game-of-pongV1_V2.pdf",
@@ -757,7 +757,7 @@
   "type" : "talk",
   "title" : "Game of Pong  ",
   "img" : "b-processing-game-of-pongV3_V4_V5.png",
-  "videoid" : "A7-lV8uMKiQ",
+  "videoid" : "A7-lV8uMKiQ",
   "objectives" : "<p>V3.0 (Simple Collision detection) · V4.0 (Lives lost, lives per game, score) · V5.0 (Tournaments)</p>",
   "folder" : "talk-2-pong-v3-v4-v5",
   "link" : "b-processing-game-of-pongV3_V4_V5.pdf",
